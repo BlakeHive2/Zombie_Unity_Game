@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: d1dac4b1db4992443929bd0d784fecf4
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/Common/Shaders/UnlitVertexColorTransparent.shader
+  uploadId: 305417

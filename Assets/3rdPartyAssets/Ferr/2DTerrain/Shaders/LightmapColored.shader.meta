@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 6eaa47ee475180b41b616f02e118e177
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Shaders/LightmapColored.shader
+  uploadId: 305417

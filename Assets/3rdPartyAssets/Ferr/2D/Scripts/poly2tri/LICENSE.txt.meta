@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 9b354f6bbf1c18b4a9db7165aba8ee70
+TextScriptImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2D/Scripts/poly2tri/LICENSE.txt
+  uploadId: 305417

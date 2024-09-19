@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ecfa3d2cc6c751b47b2f79f79f3d7d1e
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Examples/Assets/Toss.cs
+  uploadId: 305417

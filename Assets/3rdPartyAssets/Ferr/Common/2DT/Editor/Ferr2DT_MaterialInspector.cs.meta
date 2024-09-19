@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a7d881c87971b6542aaa46eebedcb76b
+timeCreated: 1472344667
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/Common/2DT/Editor/Ferr2DT_MaterialInspector.cs
+  uploadId: 305417

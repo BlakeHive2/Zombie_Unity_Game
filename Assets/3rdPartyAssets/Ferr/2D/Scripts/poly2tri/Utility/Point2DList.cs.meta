@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7f3b62d952ba6be4abeb98f3e5bd1b75
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2D/Scripts/poly2tri/Utility/Point2DList.cs
+  uploadId: 305417

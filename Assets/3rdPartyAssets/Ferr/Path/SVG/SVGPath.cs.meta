@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 3970c6b8814586f4083924ae42f973c0
+timeCreated: 1500525983
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/Path/SVG/SVGPath.cs
+  uploadId: 305417

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 018a88aa16b2596488e02e493eb2f440
+timeCreated: 1519330617
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Examples/Assets/InfinitePrefabs/Meshes/Prefab2.Bottom-Mesh.asset
+  uploadId: 305417

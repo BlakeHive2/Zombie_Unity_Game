@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 284436824db4f93478d5277fbf800414
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Shaders/LitWavyTransparent.shader
+  uploadId: 305417

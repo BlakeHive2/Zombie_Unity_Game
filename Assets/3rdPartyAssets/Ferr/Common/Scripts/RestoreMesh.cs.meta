@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 9dd452f4de2fa884887dd24fe4e81eb2
+timeCreated: 1502730677
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/Common/Scripts/RestoreMesh.cs
+  uploadId: 305417

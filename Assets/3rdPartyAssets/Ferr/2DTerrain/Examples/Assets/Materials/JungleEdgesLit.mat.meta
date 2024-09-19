@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: c169ccf40e2b71f429313a9f29a9739e
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Examples/Assets/Materials/JungleEdgesLit.mat
+  uploadId: 305417

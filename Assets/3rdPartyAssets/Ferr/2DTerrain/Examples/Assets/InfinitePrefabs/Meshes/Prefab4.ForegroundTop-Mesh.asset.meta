@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1634fefbb8ad6374194976bb6b826e30
+timeCreated: 1519335682
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Examples/Assets/InfinitePrefabs/Meshes/Prefab4.ForegroundTop-Mesh.asset
+  uploadId: 305417

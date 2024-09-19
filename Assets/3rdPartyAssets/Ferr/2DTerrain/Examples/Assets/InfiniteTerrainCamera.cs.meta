@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a9ccd4570df141c4fbcfa0f4e000c50a
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Examples/Assets/InfiniteTerrainCamera.cs
+  uploadId: 305417

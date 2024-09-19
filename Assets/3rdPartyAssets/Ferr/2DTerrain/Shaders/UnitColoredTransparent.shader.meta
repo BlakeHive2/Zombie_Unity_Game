@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: f96550915e1658a4195dff70b551b70b
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Shaders/UnitColoredTransparent.shader
+  uploadId: 305417

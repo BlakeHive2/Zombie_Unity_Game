@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 07439bf8dceeb354fb1abf056c43b780
+timeCreated: 1519328095
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Examples/Assets/InfinitePrefabs/Prefab1.prefab
+  uploadId: 305417

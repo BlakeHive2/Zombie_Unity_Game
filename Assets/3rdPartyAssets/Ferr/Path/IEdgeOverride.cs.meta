@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2ba0baa9515f8654192a551d6ed1e8a2
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/Path/IEdgeOverride.cs
+  uploadId: 305417

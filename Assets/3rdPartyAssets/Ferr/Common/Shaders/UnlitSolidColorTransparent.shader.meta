@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 20e128be05a74fa428488196ca59ca14
+timeCreated: 1428868750
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/Common/Shaders/UnlitSolidColorTransparent.shader
+  uploadId: 305417

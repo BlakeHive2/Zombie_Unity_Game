@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: da6f90725b69a094cb9c31335dfcb069
+timeCreated: 1472332886
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Shaders/VertlitWavyTransparent.shader
+  uploadId: 305417

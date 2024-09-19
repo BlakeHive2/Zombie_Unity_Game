@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 21c277fe5521a874d91188a23c464ea1
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2D/Scripts/poly2tri/Utility/Rect2D.cs
+  uploadId: 305417

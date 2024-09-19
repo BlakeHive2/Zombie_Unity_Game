@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ddb9ca9eb85afaf4a97a7f838ca5d7ec
+timeCreated: 1516308710
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Editor/Ferr2DT_PathTerrainEditor_Legacy.cs
+  uploadId: 305417

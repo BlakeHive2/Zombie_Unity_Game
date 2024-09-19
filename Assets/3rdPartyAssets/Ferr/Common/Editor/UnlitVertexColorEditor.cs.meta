@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d732e644da2eff1419d7173f0f193d7b
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/Common/Editor/UnlitVertexColorEditor.cs
+  uploadId: 305417

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 70f8e9248f52bf54e8fa7345be0a51ce
+timeCreated: 1501021836
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/Common/Scripts/EditInIsolation.cs
+  uploadId: 305417

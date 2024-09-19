@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b6f50f69ba5b7b04a85b72ebf4511b9a
+timeCreated: 1472332800
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Shaders/Vertlit.shader
+  uploadId: 305417

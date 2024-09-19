@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 06e35a8bc3c32184f9b6f0ac9c9fc24f
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2D/Scripts/poly2tri/Triangulation/Delaunay/Sweep/AdvancingFrontNode.cs
+  uploadId: 305417

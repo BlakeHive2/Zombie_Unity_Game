@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5f22dbb8b88533d4aaee923ec8769889
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/Common/Scripts/CameraShake.cs
+  uploadId: 305417

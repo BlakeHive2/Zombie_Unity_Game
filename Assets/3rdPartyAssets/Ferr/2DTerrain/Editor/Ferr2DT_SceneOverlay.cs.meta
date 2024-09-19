@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ea3fd2a247c601447b715c6d8e7a31f7
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Editor/Ferr2DT_SceneOverlay.cs
+  uploadId: 305417

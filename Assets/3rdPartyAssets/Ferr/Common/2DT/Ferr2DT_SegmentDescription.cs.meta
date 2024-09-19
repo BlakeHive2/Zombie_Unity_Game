@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 9dd72727c49aa084fa61a3cbd83d9cad
+timeCreated: 1472340656
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/Common/2DT/Ferr2DT_SegmentDescription.cs
+  uploadId: 305417

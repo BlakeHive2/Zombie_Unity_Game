@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a30393bac71ab74489ba2c4fb9b9b5e0
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2D/Scripts/poly2tri/Triangulation/TriangulationPoint.cs
+  uploadId: 305417

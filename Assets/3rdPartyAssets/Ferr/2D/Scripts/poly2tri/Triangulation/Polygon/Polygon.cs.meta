@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1f3b7a6941da49f408fbc2af8b348ff6
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2D/Scripts/poly2tri/Triangulation/Polygon/Polygon.cs
+  uploadId: 305417

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 745a5dd146e3de9459b8692b7146f100
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2D/Scripts/poly2tri/Triangulation/Delaunay/Sweep/DTSweepContext.cs
+  uploadId: 305417

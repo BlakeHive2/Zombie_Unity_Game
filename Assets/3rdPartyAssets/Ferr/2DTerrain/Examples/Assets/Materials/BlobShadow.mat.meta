@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 34801a98458f8e4459c66c7e45a3a153
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Examples/Assets/Materials/BlobShadow.mat
+  uploadId: 305417

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cd6526d1da895f147988c09af60bb957
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2D/Scripts/poly2tri/Triangulation/ITriangulatable.cs
+  uploadId: 305417

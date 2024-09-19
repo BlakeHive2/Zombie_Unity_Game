@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2ad40406be482454087f56df0226898d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/Common/Interfaces/IBlendPaintable.cs
+  uploadId: 305417

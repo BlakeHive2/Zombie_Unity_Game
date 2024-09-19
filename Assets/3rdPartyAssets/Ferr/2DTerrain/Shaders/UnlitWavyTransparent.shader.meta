@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 546ed2eb115a07c45ae40bc130626f58
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Shaders/UnlitWavyTransparent.shader
+  uploadId: 305417

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 8ae436b302c25b44daa7cd61718b7ff7
+timeCreated: 1500573797
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/Path/SVG/ISVGElement.cs
+  uploadId: 305417

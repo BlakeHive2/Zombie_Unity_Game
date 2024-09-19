@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 95c4b794c420eb54fa8e18d3e7fa4c78
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Examples/Assets/Materials/RockyFill.mat
+  uploadId: 305417

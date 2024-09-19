@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c6f66502d17e51d4aae0b1e16d1903a4
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 396512d4da7854c418e2e19ac857d031, type: 3}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Scripts/Ferr2DT_PathTerrain.cs
+  uploadId: 305417

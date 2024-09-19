@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 563907d795df86240b03ccd3ef60bbd5
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/Path/ILerpable.cs
+  uploadId: 305417

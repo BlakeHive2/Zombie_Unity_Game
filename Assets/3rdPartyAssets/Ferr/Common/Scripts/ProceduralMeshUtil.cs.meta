@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: b6180b6c78da6bd4cbdf0302addc36cc
+timeCreated: 1502731343
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/Common/Scripts/ProceduralMeshUtil.cs
+  uploadId: 305417

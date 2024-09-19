@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d2744f6e6bc99d64aba5a6d09b4a85e0
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2D/Scripts/poly2tri/Triangulation/Util/TriangulationUtil.cs
+  uploadId: 305417

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 6a137a711dab1dd4c9609c5b44c38f5a
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Examples/Assets/Materials/MossyEdges.mat
+  uploadId: 305417

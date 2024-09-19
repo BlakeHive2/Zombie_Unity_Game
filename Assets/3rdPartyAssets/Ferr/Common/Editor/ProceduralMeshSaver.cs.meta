@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3468ba624293d254383272447bb3f89f
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/Common/Editor/ProceduralMeshSaver.cs
+  uploadId: 305417

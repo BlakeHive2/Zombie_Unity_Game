@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 48357975a42078b4cbf6eee53d7b1977
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/2DTerrain/Shaders/Ferr2DTCommon.cginc
+  uploadId: 305417

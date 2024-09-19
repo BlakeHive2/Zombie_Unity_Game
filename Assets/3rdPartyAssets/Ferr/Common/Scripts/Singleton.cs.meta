@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 40a891b53c8c99f4a9873b5389394923
+timeCreated: 1451155076
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11653
+  packageName: Ferr2D Terrain Tool
+  packageVersion: 2.0.3
+  assetPath: Assets/Ferr/Common/Scripts/Singleton.cs
+  uploadId: 305417
