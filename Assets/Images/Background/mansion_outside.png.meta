@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mansion_outside_0: 2164029671280449913
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
