@@ -1,0 +1,5213 @@
+fileFormatVersion: 2
+guid: 8333c221ad8eac1448a5472cb41b881e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3831296468082219963
+    second: Footprints_PNG12_0
+  - first:
+      213: -3031925816566682396
+    second: Footprints_PNG12_1
+  - first:
+      213: -8801595588773767229
+    second: Footprints_PNG12_2
+  - first:
+      213: 8288029417310374534
+    second: Footprints_PNG12_3
+  - first:
+      213: -2128534670870384109
+    second: Footprints_PNG12_4
+  - first:
+      213: -5688079573079342149
+    second: Footprints_PNG12_5
+  - first:
+      213: -6368840726823050881
+    second: Footprints_PNG12_6
+  - first:
+      213: 1851885088587173541
+    second: Footprints_PNG12_7
+  - first:
+      213: -917848811595321255
+    second: Footprints_PNG12_8
+  - first:
+      213: -6600912175443615566
+    second: Footprints_PNG12_9
+  - first:
+      213: -3384397215425873629
+    second: Footprints_PNG12_10
+  - first:
+      213: -6432548288071913533
+    second: Footprints_PNG12_11
+  - first:
+      213: 3803604312263903227
+    second: Footprints_PNG12_12
+  - first:
+      213: 5813872797237516352
+    second: Footprints_PNG12_13
+  - first:
+      213: 2959865840663106427
+    second: Footprints_PNG12_14
+  - first:
+      213: 1556817918427324800
+    second: Footprints_PNG12_15
+  - first:
+      213: 5477139117634250908
+    second: Footprints_PNG12_16
+  - first:
+      213: 8796921074413320068
+    second: Footprints_PNG12_17
+  - first:
+      213: 129027353049974917
+    second: Footprints_PNG12_18
+  - first:
+      213: 7254269026224777369
+    second: Footprints_PNG12_19
+  - first:
+      213: -4521660836367917508
+    second: Footprints_PNG12_20
+  - first:
+      213: -5552740548134641145
+    second: Footprints_PNG12_21
+  - first:
+      213: 2829654309405207410
+    second: Footprints_PNG12_22
+  - first:
+      213: -8977341389759274601
+    second: Footprints_PNG12_23
+  - first:
+      213: 8381157742290746888
+    second: Footprints_PNG12_24
+  - first:
+      213: 3600763242700869393
+    second: Footprints_PNG12_25
+  - first:
+      213: 5949163192889419235
+    second: Footprints_PNG12_26
+  - first:
+      213: -7096106460452280481
+    second: Footprints_PNG12_27
+  - first:
+      213: 411529063361449967
+    second: Footprints_PNG12_28
+  - first:
+      213: -490548319652523854
+    second: Footprints_PNG12_29
+  - first:
+      213: 1219143156466469237
+    second: Footprints_PNG12_30
+  - first:
+      213: 2607796550019861239
+    second: Footprints_PNG12_31
+  - first:
+      213: 2269035644802618256
+    second: Footprints_PNG12_32
+  - first:
+      213: 8272930540014582627
+    second: Footprints_PNG12_33
+  - first:
+      213: 2509122894414445817
+    second: Footprints_PNG12_34
+  - first:
+      213: 3837578629485210737
+    second: Footprints_PNG12_35
+  - first:
+      213: -738930304603665210
+    second: Footprints_PNG12_36
+  - first:
+      213: 7298830410568093027
+    second: Footprints_PNG12_37
+  - first:
+      213: 7462952792283396339
+    second: Footprints_PNG12_38
+  - first:
+      213: -1957613546968241124
+    second: Footprints_PNG12_39
+  - first:
+      213: -9055426473784173696
+    second: Footprints_PNG12_40
+  - first:
+      213: 8830753638076666924
+    second: Footprints_PNG12_41
+  - first:
+      213: -4289114239114861108
+    second: Footprints_PNG12_42
+  - first:
+      213: -1755415891126670618
+    second: Footprints_PNG12_43
+  - first:
+      213: 4724938773663261882
+    second: Footprints_PNG12_44
+  - first:
+      213: 8848085165844627408
+    second: Footprints_PNG12_45
+  - first:
+      213: -86370633135964028
+    second: Footprints_PNG12_46
+  - first:
+      213: -7867252768982604719
+    second: Footprints_PNG12_47
+  - first:
+      213: 7344326722264814890
+    second: Footprints_PNG12_48
+  - first:
+      213: 153992515269265323
+    second: Footprints_PNG12_49
+  - first:
+      213: -3422481443598785183
+    second: Footprints_PNG12_50
+  - first:
+      213: 2834198871899490746
+    second: Footprints_PNG12_51
+  - first:
+      213: 6904882753972165316
+    second: Footprints_PNG12_52
+  - first:
+      213: -5247716442840729254
+    second: Footprints_PNG12_53
+  - first:
+      213: -1696467779207621256
+    second: Footprints_PNG12_54
+  - first:
+      213: -8274735927658448710
+    second: Footprints_PNG12_55
+  - first:
+      213: -9017752214644573475
+    second: Footprints_PNG12_56
+  - first:
+      213: -2205354429981146423
+    second: Footprints_PNG12_57
+  - first:
+      213: -5502839602949823131
+    second: Footprints_PNG12_58
+  - first:
+      213: -7828078455802315646
+    second: Footprints_PNG12_59
+  - first:
+      213: 1156947271694672009
+    second: Footprints_PNG12_60
+  - first:
+      213: -3438195732061599103
+    second: Footprints_PNG12_61
+  - first:
+      213: 1905300738982938882
+    second: Footprints_PNG12_62
+  - first:
+      213: 5483532924691935700
+    second: Footprints_PNG12_63
+  - first:
+      213: -1879567151699503728
+    second: Footprints_PNG12_64
+  - first:
+      213: -2121173498470962465
+    second: Footprints_PNG12_65
+  - first:
+      213: -6987185213016612851
+    second: Footprints_PNG12_66
+  - first:
+      213: -6693582225395363414
+    second: Footprints_PNG12_67
+  - first:
+      213: -7510758207999930628
+    second: Footprints_PNG12_68
+  - first:
+      213: 9030903755550446655
+    second: Footprints_PNG12_69
+  - first:
+      213: 4399506627301124103
+    second: Footprints_PNG12_70
+  - first:
+      213: 5863611741408763024
+    second: Footprints_PNG12_71
+  - first:
+      213: 4132292335362006436
+    second: Footprints_PNG12_72
+  - first:
+      213: 6307781752037473711
+    second: Footprints_PNG12_73
+  - first:
+      213: 7200839687349082603
+    second: Footprints_PNG12_74
+  - first:
+      213: -5312264752816215122
+    second: Footprints_PNG12_75
+  - first:
+      213: 5727114566920442978
+    second: Footprints_PNG12_76
+  - first:
+      213: -3010524269532689278
+    second: Footprints_PNG12_77
+  - first:
+      213: 1101755222318966609
+    second: Footprints_PNG12_78
+  - first:
+      213: 1946669072961061576
+    second: Footprints_PNG12_79
+  - first:
+      213: -789295603584442226
+    second: Footprints_PNG12_80
+  - first:
+      213: -190308235682301489
+    second: Footprints_PNG12_81
+  - first:
+      213: 1559227893896531990
+    second: Footprints_PNG12_82
+  - first:
+      213: 977622379309585592
+    second: Footprints_PNG12_83
+  - first:
+      213: 2421349287743405480
+    second: Footprints_PNG12_84
+  - first:
+      213: -6552724151466564309
+    second: Footprints_PNG12_85
+  - first:
+      213: -7721724953642084325
+    second: Footprints_PNG12_86
+  - first:
+      213: 6202623342738538266
+    second: Footprints_PNG12_87
+  - first:
+      213: -5364774885392964381
+    second: Footprints_PNG12_88
+  - first:
+      213: -8137326612421707516
+    second: Footprints_PNG12_89
+  - first:
+      213: 4246651144051335128
+    second: Footprints_PNG12_90
+  - first:
+      213: -4538569517909732403
+    second: Footprints_PNG12_91
+  - first:
+      213: -6978631234475580528
+    second: Footprints_PNG12_92
+  - first:
+      213: 7106288866086223232
+    second: Footprints_PNG12_93
+  - first:
+      213: 6425631493919492147
+    second: Footprints_PNG12_94
+  - first:
+      213: -2996084401732345618
+    second: Footprints_PNG12_95
+  - first:
+      213: -1139361152196333968
+    second: Footprints_PNG12_96
+  - first:
+      213: -1181787961694280358
+    second: Footprints_PNG12_97
+  - first:
+      213: 2088125451575731249
+    second: Footprints_PNG12_98
+  - first:
+      213: 2090171645975324490
+    second: Footprints_PNG12_99
+  - first:
+      213: -9110207709200866971
+    second: Footprints_PNG12_100
+  - first:
+      213: 4451571897363164266
+    second: Footprints_PNG12_101
+  - first:
+      213: 6015087118113345580
+    second: Footprints_PNG12_102
+  - first:
+      213: -4804613904220454217
+    second: Footprints_PNG12_103
+  - first:
+      213: 8150709837713043087
+    second: Footprints_PNG12_104
+  - first:
+      213: 5191481090667006391
+    second: Footprints_PNG12_105
+  - first:
+      213: 8742942075632006590
+    second: Footprints_PNG12_106
+  - first:
+      213: -6451117120875374796
+    second: Footprints_PNG12_107
+  - first:
+      213: 2703102436252968085
+    second: Footprints_PNG12_108
+  - first:
+      213: -5756713691070522013
+    second: Footprints_PNG12_109
+  - first:
+      213: -5788027262611347516
+    second: Footprints_PNG12_110
+  - first:
+      213: -6972192201866689582
+    second: Footprints_PNG12_111
+  - first:
+      213: 956214170018990918
+    second: Footprints_PNG12_112
+  - first:
+      213: 6702463293334532103
+    second: Footprints_PNG12_113
+  - first:
+      213: 8588951701309065830
+    second: Footprints_PNG12_114
+  - first:
+      213: -2109333222276932812
+    second: Footprints_PNG12_115
+  - first:
+      213: -1663882036206286928
+    second: Footprints_PNG12_116
+  - first:
+      213: 6664867662551201818
+    second: Footprints_PNG12_117
+  - first:
+      213: -7655549373381462965
+    second: Footprints_PNG12_118
+  - first:
+      213: -5079555752942033472
+    second: Footprints_PNG12_119
+  - first:
+      213: 384986141207721583
+    second: Footprints_PNG12_120
+  - first:
+      213: -5672712643467644981
+    second: Footprints_PNG12_121
+  - first:
+      213: -6105825427070965796
+    second: Footprints_PNG12_122
+  - first:
+      213: 5434346813864115647
+    second: Footprints_PNG12_123
+  - first:
+      213: 7621619810136067326
+    second: Footprints_PNG12_124
+  - first:
+      213: -4771487496502804660
+    second: Footprints_PNG12_125
+  - first:
+      213: 4614303509993078722
+    second: Footprints_PNG12_126
+  - first:
+      213: -3037063329417496048
+    second: Footprints_PNG12_127
+  - first:
+      213: -2424866444635998753
+    second: Footprints_PNG12_128
+  - first:
+      213: -3917651760201282506
+    second: Footprints_PNG12_129
+  - first:
+      213: 6201711191101042655
+    second: Footprints_PNG12_130
+  - first:
+      213: 592861211246929424
+    second: Footprints_PNG12_131
+  - first:
+      213: 5490817783154889414
+    second: Footprints_PNG12_132
+  - first:
+      213: 3279343315891947762
+    second: Footprints_PNG12_133
+  - first:
+      213: -3887098059023853918
+    second: Footprints_PNG12_134
+  - first:
+      213: -4590323563122635952
+    second: Footprints_PNG12_135
+  - first:
+      213: 3663364794951788804
+    second: Footprints_PNG12_136
+  - first:
+      213: 3662838790859932798
+    second: Footprints_PNG12_137
+  - first:
+      213: -3491880535591495805
+    second: Footprints_PNG12_138
+  - first:
+      213: -8820967379974640840
+    second: Footprints_PNG12_139
+  - first:
+      213: 8130497181639793843
+    second: Footprints_PNG12_140
+  - first:
+      213: -1441560677426661855
+    second: Footprints_PNG12_141
+  - first:
+      213: 7179669875457085814
+    second: Footprints_PNG12_142
+  - first:
+      213: 3785489845872350577
+    second: Footprints_PNG12_143
+  - first:
+      213: 6316239339304942446
+    second: Footprints_PNG12_144
+  - first:
+      213: -390011949699389773
+    second: Footprints_PNG12_145
+  - first:
+      213: -2254571917751822975
+    second: Footprints_PNG12_146
+  - first:
+      213: -3189752967515085787
+    second: Footprints_PNG12_147
+  - first:
+      213: -7269701922396784194
+    second: Footprints_PNG12_148
+  - first:
+      213: -3109322525418882748
+    second: Footprints_PNG12_149
+  - first:
+      213: 3008892820462460259
+    second: Footprints_PNG12_150
+  - first:
+      213: -7422490880063136270
+    second: Footprints_PNG12_151
+  - first:
+      213: 8688069264982716029
+    second: Footprints_PNG12_152
+  - first:
+      213: -3965745210086165651
+    second: Footprints_PNG12_153
+  - first:
+      213: 3111433102059700074
+    second: Footprints_PNG12_154
+  - first:
+      213: 957576878546998129
+    second: Footprints_PNG12_155
+  - first:
+      213: 733388546390716386
+    second: Footprints_PNG12_156
+  - first:
+      213: 5790220623511426117
+    second: Footprints_PNG12_157
+  - first:
+      213: 3723699502622477827
+    second: Footprints_PNG12_158
+  - first:
+      213: 1241690741645592588
+    second: Footprints_PNG12_159
+  - first:
+      213: -4318421547977569093
+    second: Footprints_PNG12_160
+  - first:
+      213: 544222472535192752
+    second: Footprints_PNG12_161
+  - first:
+      213: -4726400467682129248
+    second: Footprints_PNG12_162
+  - first:
+      213: -4279177383340959148
+    second: Footprints_PNG12_163
+  - first:
+      213: -6789827023581886686
+    second: Footprints_PNG12_164
+  - first:
+      213: -5186813379418117195
+    second: Footprints_PNG12_165
+  - first:
+      213: -4946161223048168189
+    second: Footprints_PNG12_166
+  - first:
+      213: -4125916052173193818
+    second: Footprints_PNG12_167
+  - first:
+      213: 10906179382389803
+    second: Footprints_PNG12_168
+  - first:
+      213: -4347218351558433724
+    second: Footprints_PNG12_169
+  - first:
+      213: 185174808224704476
+    second: Footprints_PNG12_170
+  - first:
+      213: 8803915995873573543
+    second: Footprints_PNG12_171
+  - first:
+      213: 4116137252680138299
+    second: Footprints_PNG12_172
+  - first:
+      213: -9027906042512099785
+    second: Footprints_PNG12_173
+  - first:
+      213: 303292112934993836
+    second: Footprints_PNG12_174
+  - first:
+      213: -792048488427657570
+    second: Footprints_PNG12_175
+  - first:
+      213: -5301005289338869969
+    second: Footprints_PNG12_176
+  - first:
+      213: 3597533264664374518
+    second: Footprints_PNG12_177
+  - first:
+      213: -4160911242144177285
+    second: Footprints_PNG12_178
+  - first:
+      213: -8918124409026727497
+    second: Footprints_PNG12_179
+  - first:
+      213: -1140504336550219462
+    second: Footprints_PNG12_180
+  - first:
+      213: -5568520051314271885
+    second: Footprints_PNG12_181
+  - first:
+      213: 3285547090109004137
+    second: Footprints_PNG12_182
+  - first:
+      213: 544083537752625193
+    second: Footprints_PNG12_183
+  - first:
+      213: -4073761497048522924
+    second: Footprints_PNG12_184
+  - first:
+      213: 1893405013909588984
+    second: Footprints_PNG12_185
+  - first:
+      213: -7550569754747928036
+    second: Footprints_PNG12_186
+  - first:
+      213: -7916537174928706697
+    second: Footprints_PNG12_187
+  - first:
+      213: -282084431481921648
+    second: Footprints_PNG12_188
+  - first:
+      213: -3327605483662270646
+    second: Footprints_PNG12_189
+  - first:
+      213: -1665829118473348888
+    second: Footprints_PNG12_190
+  - first:
+      213: 3723783142566126492
+    second: Footprints_PNG12_191
+  - first:
+      213: -6042636916420273706
+    second: Footprints_PNG12_192
+  - first:
+      213: 9215294320309714571
+    second: Footprints_PNG12_193
+  - first:
+      213: -3669789712519148962
+    second: Footprints_PNG12_194
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Footprints_PNG12_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1520
+        height: 1583
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54420ce492084dac0800000000000000
+      internalID: -3831296468082219963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_1
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 1578
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ece43e988f6ce5d0800000000000000
+      internalID: -3031925816566682396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_2
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1310
+        width: 249
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c79e72e1737ad580800000000000000
+      internalID: -8801595588773767229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_3
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1409
+        width: 139
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ac5cad7def40370800000000000000
+      internalID: 8288029417310374534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_4
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1346
+        width: 257
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312faaa8efce572e0800000000000000
+      internalID: -2128534670870384109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_5
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1241
+        width: 124
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb34378d3c1ef01b0800000000000000
+      internalID: -5688079573079342149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1252
+        width: 213
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71ebae3a155d97a0800000000000000
+      internalID: -6368840726823050881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_7
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1295
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aec4162da733b910800000000000000
+      internalID: 1851885088587173541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_8
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1293
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950b85b6e552343f0800000000000000
+      internalID: -917848811595321255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_9
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1283
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0e12d7959d464a0800000000000000
+      internalID: -6600912175443615566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_10
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1291
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32938b3f9a43801d0800000000000000
+      internalID: -3384397215425873629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_11
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1145
+        width: 193
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf2de0c96ffab6a0800000000000000
+      internalID: -6432548288071913533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_12
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1275
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf742aa38fd19c430800000000000000
+      internalID: 3803604312263903227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_13
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1280
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04816a081860fa050800000000000000
+      internalID: 5813872797237516352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_14
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1096
+        width: 219
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73998fcc4e831920800000000000000
+      internalID: 2959865840663106427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_15
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1262
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081e2dff5adea9510800000000000000
+      internalID: 1556817918427324800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_16
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1268
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c986cf32205b20c40800000000000000
+      internalID: 5477139117634250908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_17
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1241
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487bd8deb11f41a70800000000000000
+      internalID: 8796921074413320068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_18
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1246
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5884ad8a1b56ac100800000000000000
+      internalID: 129027353049974917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_19
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1248
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9982f3d9e375ca460800000000000000
+      internalID: 7254269026224777369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_20
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1240
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e9e751d65df31c0800000000000000
+      internalID: -4521660836367917508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_21
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1250
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702e68224e3b0f2b0800000000000000
+      internalID: -5552740548134641145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_22
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1248
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b204d2a93f44720800000000000000
+      internalID: 2829654309405207410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_23
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1246
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791acfbe1931a6380800000000000000
+      internalID: -8977341389759274601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_24
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1204
+        width: 56
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e31c3bf8adf4470800000000000000
+      internalID: 8381157742290746888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_25
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1234
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f0871771b78f130800000000000000
+      internalID: 3600763242700869393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_26
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1228
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5a007676caf8250800000000000000
+      internalID: 5949163192889419235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_27
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1221
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57236065c0958d90800000000000000
+      internalID: -7096106460452280481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_28
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1211
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef8864b08b06b500800000000000000
+      internalID: 411529063361449967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_29
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1211
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b052fdf6e83139f0800000000000000
+      internalID: -490548319652523854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_30
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1170
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5794883dd344be010800000000000000
+      internalID: 1219143156466469237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_31
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 1207
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa4c624521c03420800000000000000
+      internalID: 2607796550019861239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_32
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1186
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093d827a5eb3d7f10800000000000000
+      internalID: 2269035644802618256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_33
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1195
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36bbc098e7a5fc270800000000000000
+      internalID: 8272930540014582627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_34
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 1188
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc7f538af132d220800000000000000
+      internalID: 2509122894414445817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_35
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1084
+        width: 196
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ca8106e61d14530800000000000000
+      internalID: 3837578629485210737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_36
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1176
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccc3509dcaceb5f0800000000000000
+      internalID: -738930304603665210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_37
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1141
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36dcab96697aa4560800000000000000
+      internalID: 7298830410568093027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_38
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1153
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8bf8f260cb19760800000000000000
+      internalID: 7462952792283396339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_39
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1153
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c2775d9d825d4e0800000000000000
+      internalID: -1957613546968241124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_40
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1146
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b1d6c8999a45280800000000000000
+      internalID: -9055426473784173696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_41
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1155
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c245c8085a32d8a70800000000000000
+      internalID: 8830753638076666924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_42
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1153
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc52d7003510a74c0800000000000000
+      internalID: -4289114239114861108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_43
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eaa1503c8283a7e0800000000000000
+      internalID: -1755415891126670618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_44
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1001
+        width: 181
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab42ba5e7ca529140800000000000000
+      internalID: 4724938773663261882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_45
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1145
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df72944496baca70800000000000000
+      internalID: 8848085165844627408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_46
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1144
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480c7e4ed562dcef0800000000000000
+      internalID: -86370633135964028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_47
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1120
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15465920a47e1d290800000000000000
+      internalID: -7867252768982604719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_48
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25d003fd3a4ce560800000000000000
+      internalID: 7344326722264814890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_49
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1120
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba781b27067132200800000000000000
+      internalID: 153992515269265323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_50
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 704
+        width: 452
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165ade79247e080d0800000000000000
+      internalID: -3422481443598785183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_51
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1107
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9c1669bd8155720800000000000000
+      internalID: 2834198871899490746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_52
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1070
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca5b36f74213df50800000000000000
+      internalID: 6904882753972165316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_53
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1068
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a597086e2bd5c27b0800000000000000
+      internalID: -5247716442840729254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_54
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1075
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8751f670b8fe478e0800000000000000
+      internalID: -1696467779207621256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_55
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 1068
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab871c5e38b3a2d80800000000000000
+      internalID: -8274735927658448710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_56
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1051
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda3e9d83228ad280800000000000000
+      internalID: -9017752214644573475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_57
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1056
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2c32594d10561e0800000000000000
+      internalID: -2205354429981146423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_58
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1066
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5656932598cf1a3b0800000000000000
+      internalID: -5502839602949823131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_59
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1005
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28cb3009e141d5390800000000000000
+      internalID: -7828078455802315646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_60
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1056
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980e731f96d4e0010800000000000000
+      internalID: 1156947271694672009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_61
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1023
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a4432b2331940d0800000000000000
+      internalID: -3438195732061599103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_62
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1045
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2090e596decf07a10800000000000000
+      internalID: 1905300738982938882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_63
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 897
+        width: 185
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1fb6a542c691c40800000000000000
+      internalID: 5483532924691935700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_64
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1004
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095557742af6ae5e0800000000000000
+      internalID: -1879567151699503728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_65
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1032
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda6aac01f31092e0800000000000000
+      internalID: -2121173498470962465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_66
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 997
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0068468118880f90800000000000000
+      internalID: -6987185213016612851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_67
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1032
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1d07c1e6e9b13a0800000000000000
+      internalID: -6693582225395363414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_68
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 990
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe805a143d64c790800000000000000
+      internalID: -7510758207999930628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_69
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1021
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34535e2e17345d70800000000000000
+      internalID: 9030903755550446655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_70
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1004
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708a24bc7ff2e0d30800000000000000
+      internalID: 4399506627301124103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_71
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 992
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c9a73efcbbf5150800000000000000
+      internalID: 5863611741408763024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_72
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 972
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad52553cf9d85930800000000000000
+      internalID: 4132292335362006436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_73
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1004
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad72ea551eb98750800000000000000
+      internalID: 6307781752037473711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_74
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1005
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be91af04b858ee360800000000000000
+      internalID: 7200839687349082603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_75
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 955
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabaf875a5b0746b0800000000000000
+      internalID: -5312264752816215122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_76
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 992
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2641245ea5cca7f40800000000000000
+      internalID: 5727114566920442978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_77
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 910
+        width: 38
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ccfc690287836d0800000000000000
+      internalID: -3010524269532689278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_78
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 979
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157e0cf89883a4f00800000000000000
+      internalID: 1101755222318966609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_79
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 940
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2451d3535f30b10800000000000000
+      internalID: 1946669072961061576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_80
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 955
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80629594dbdb05f0800000000000000
+      internalID: -789295603584442226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_81
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 932
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9335efaa3eb5df0800000000000000
+      internalID: -190308235682301489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_82
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 907
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6105593228d73a510800000000000000
+      internalID: 1559227893896531990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_83
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 943
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b45833df56319d00800000000000000
+      internalID: 977622379309585592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_84
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 901
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad371d295c5a9120800000000000000
+      internalID: 2421349287743405480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_85
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 891
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2566b02a1c0015a0800000000000000
+      internalID: -6552724151466564309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_86
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 916
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18d4ece01ce6d490800000000000000
+      internalID: -7721724953642084325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_87
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 914
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ff97b3115241650800000000000000
+      internalID: 6202623342738538266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_88
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 912
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e427306aad7c85b0800000000000000
+      internalID: -5364774885392964381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_89
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 892
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40975453f88621f80800000000000000
+      internalID: -8137326612421707516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_90
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 886
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df9f2e37b22fea30800000000000000
+      internalID: 4246651144051335128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_91
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 905
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc31390e113c301c0800000000000000
+      internalID: -4538569517909732403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_92
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 898
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09323aadddbe62f90800000000000000
+      internalID: -6978631234475580528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_93
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 904
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08df16ea21c9e9260800000000000000
+      internalID: 7106288866086223232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_94
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 864
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33842ac9ccd6c2950800000000000000
+      internalID: 6425631493919492147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_95
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 849
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0a7ad4c15cb66d0800000000000000
+      internalID: -2996084401732345618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_96
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 887
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e2574911d2030f0800000000000000
+      internalID: -1139361152196333968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_97
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 870
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5521673c12799fe0800000000000000
+      internalID: -1181787961694280358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_98
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 886
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134af9be8038afc10800000000000000
+      internalID: 2088125451575731249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_99
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 869
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47e3fda908c10d10800000000000000
+      internalID: 2090171645975324490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_100
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 866
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561ae0f3b5a029180800000000000000
+      internalID: -9110207709200866971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_101
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 874
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c61722e0927cd30800000000000000
+      internalID: 4451571897363164266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_102
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 849
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c209c285dd1e97350800000000000000
+      internalID: 6015087118113345580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_103
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 880
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2890c2c15925db0800000000000000
+      internalID: -4804613904220454217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_104
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 830
+        width: 75
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8eea20c9632d1170800000000000000
+      internalID: 8150709837713043087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_105
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 870
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b94d5bdb88db0840800000000000000
+      internalID: 5191481090667006391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_106
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 864
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5bcd5ee7b255970800000000000000
+      internalID: 8742942075632006590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_107
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 861
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43758c578270976a0800000000000000
+      internalID: -6451117120875374796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_108
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 857
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594e9581859538520800000000000000
+      internalID: 2703102436252968085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_109
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 834
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d1d1af56b0c10b0800000000000000
+      internalID: -5756713691070522013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_110
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 848
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c726c5fedbccafa0800000000000000
+      internalID: -5788027262611347516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_111
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 836
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3ccf5f12ccd3f90800000000000000
+      internalID: -6972192201866689582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_112
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 697
+        width: 77
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b4d2da8b7254d00800000000000000
+      internalID: 956214170018990918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_113
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 792
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700bc47aadee30d50800000000000000
+      internalID: 6702463293334532103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_114
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 793
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a838de016123770800000000000000
+      internalID: 8588951701309065830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_115
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 799
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bd04d2c942ab2e0800000000000000
+      internalID: -2109333222276932812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_116
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 801
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b745cb8a14b8e8e0800000000000000
+      internalID: -1663882036206286928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_117
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 788
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a183a5db3dd5e7c50800000000000000
+      internalID: 6664867662551201818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_118
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 786
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44322fd76602c590800000000000000
+      internalID: -7655549373381462965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_119
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 788
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5291194fac189b0800000000000000
+      internalID: -5079555752942033472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_120
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 771
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66722e0bdeb75500800000000000000
+      internalID: 384986141207721583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_121
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 483
+        width: 216
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf6e35f7e97641b0800000000000000
+      internalID: -5672712643467644981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_122
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 734
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd723e6cf10c34ba0800000000000000
+      internalID: -6105825427070965796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_123
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 746
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd75a282adaa6b40800000000000000
+      internalID: 5434346813864115647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_124
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 754
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc8d3416de65c960800000000000000
+      internalID: 7621619810136067326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_125
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 734
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f7bb0076548cdb0800000000000000
+      internalID: -4771487496502804660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_126
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 731
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfb9fe389c490040800000000000000
+      internalID: 4614303509993078722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_127
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 749
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a74b13efe2ad5d0800000000000000
+      internalID: -3037063329417496048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_128
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 732
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5f4bbe0d4295ed0800000000000000
+      internalID: -2424866444635998753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_129
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 754
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63cc48f0b74b1a9c0800000000000000
+      internalID: -3917651760201282506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_130
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 761
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf64216877e01650800000000000000
+      internalID: 6201711191101042655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_131
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 755
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0162b7961244a3800800000000000000
+      internalID: 592861211246929424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_132
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 756
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c25853aead433c40800000000000000
+      internalID: 5490817783154889414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_133
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 732
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f88a400f51928d20800000000000000
+      internalID: 3279343315891947762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_134
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 745
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6d5c8f8e04e0ac0800000000000000
+      internalID: -3887098059023853918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_135
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 750
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b48f73a05eb40c0800000000000000
+      internalID: -4590323563122635952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_136
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 738
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409e5c52fd2e6d230800000000000000
+      internalID: 3663364794951788804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_137
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 742
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e744ab6497405d230800000000000000
+      internalID: 3662838790859932798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_138
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 740
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387d7f557295a8fc0800000000000000
+      internalID: -3491880535591495805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_139
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 724
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bad4547e0a59580800000000000000
+      internalID: -8820967379974640840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_140
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 713
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc54f60c1455d070800000000000000
+      internalID: 8130497181639793843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_141
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 731
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126ffcb933c8efbe0800000000000000
+      internalID: -1441560677426661855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_142
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 727
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671513356bf43a360800000000000000
+      internalID: 7179669875457085814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_143
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 720
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175d11c55f2c88430800000000000000
+      internalID: 3785489845872350577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_144
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 731
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b7e97d63ac7a750800000000000000
+      internalID: 6316239339304942446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_145
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 712
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6a208b236669af0800000000000000
+      internalID: -390011949699389773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_146
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 666
+        width: 96
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185d4d939c626b0e0800000000000000
+      internalID: -2254571917751822975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_147
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 723
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524e30a7398bbb3d0800000000000000
+      internalID: -3189752967515085787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_148
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 723
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9b09c3e94dc1b90800000000000000
+      internalID: -7269701922396784194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_149
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 701
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449794413a779d4d0800000000000000
+      internalID: -3109322525418882748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_150
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 704
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d53e2141cb1c920800000000000000
+      internalID: 3008892820462460259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_151
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 694
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd9241eed30ef890800000000000000
+      internalID: -7422490880063136270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_152
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 712
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ea84317f8329870800000000000000
+      internalID: 8688069264982716029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_153
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 706
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d637b1b2eb7d6f8c0800000000000000
+      internalID: -3965745210086165651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_154
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 694
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ff8a6dbe70e2b20800000000000000
+      internalID: 3111433102059700074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_155
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 699
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173dbeaf81ff94d00800000000000000
+      internalID: 957576878546998129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_156
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 705
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef65fd4ff48d2a00800000000000000
+      internalID: 733388546390716386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_157
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 685
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5441a8baafefa5050800000000000000
+      internalID: 5790220623511426117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_158
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 679
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e8c18f7fc3da330800000000000000
+      internalID: 3723699502622477827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_159
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 696
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c084da8962f5b3110800000000000000
+      internalID: 1241690741645592588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_160
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 640
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc876a6b72e114c0800000000000000
+      internalID: -4318421547977569093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_161
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 589
+        width: 81
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4be3294777d8700800000000000000
+      internalID: 544222472535192752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_162
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 668
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa0191f0d3786eb0800000000000000
+      internalID: -4726400467682129248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_163
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 633
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a931787de4d94c0800000000000000
+      internalID: -4279177383340959148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_164
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 656
+        width: 36
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227cd0dcb40b5c1a0800000000000000
+      internalID: -6789827023581886686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_165
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 654
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb2a8b56bcb408b0800000000000000
+      internalID: -5186813379418117195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_166
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 648
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30df662d294bb5bb0800000000000000
+      internalID: -4946161223048168189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_167
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 641
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad7229e53dcdb6c0800000000000000
+      internalID: -4125916052173193818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_168
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 632
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ca1f3cc1fb62000800000000000000
+      internalID: 10906179382389803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_169
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 596
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444ec4a11f39ba3c0800000000000000
+      internalID: -4347218351558433724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_170
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 560
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7a599c18fd19200800000000000000
+      internalID: 185174808224704476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_171
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 535
+        width: 75
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa7c6ef3facd2a70800000000000000
+      internalID: 8803915995873573543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_172
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 570
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e70c8e5057f1930800000000000000
+      internalID: 4116137252680138299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_173
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 600
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736b676494f66b280800000000000000
+      internalID: -9027906042512099785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_174
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 592
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caffaaed192853400800000000000000
+      internalID: 303292112934993836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_175
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 599
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e966262a8141205f0800000000000000
+      internalID: -792048488427657570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_176
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 364
+        width: 210
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f276d7876cb0f66b0800000000000000
+      internalID: -5301005289338869969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_177
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 555
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fca8f391710de130800000000000000
+      internalID: 3597533264664374518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_178
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 520
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73211e45497146c0800000000000000
+      internalID: -4160911242144177285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_179
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 556
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1b839a9157c3480800000000000000
+      internalID: -8918124409026727497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_180
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 509
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31b12b395d1c20f0800000000000000
+      internalID: -1140504336550219462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_181
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 511
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379d5c04484a8b2b0800000000000000
+      internalID: -5568520051314271885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_182
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 504
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969f3cebbab989d20800000000000000
+      internalID: 3285547090109004137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_183
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 507
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92012eb4819fc8700800000000000000
+      internalID: 544083537752625193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_184
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 507
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f52cc80871777c0800000000000000
+      internalID: -4073761497048522924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_185
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 497
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb460614d9b64a10800000000000000
+      internalID: 1893405013909588984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_186
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 470
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12017c00dcf63790800000000000000
+      internalID: -7550569754747928036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_187
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 435
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773333d026fc22290800000000000000
+      internalID: -7916537174928706697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_188
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 254
+        width: 161
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f1ad044b5d51cf0800000000000000
+      internalID: -282084431481921648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_189
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 464
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f1ba96178f1d1d0800000000000000
+      internalID: -3327605483662270646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_190
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 470
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8d4e02e39c1e8e0800000000000000
+      internalID: -1665829118473348888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_191
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 460
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93ed39e9098da330800000000000000
+      internalID: 3723783142566126492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 571
+        height: 446
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d99b126dbd342ca0800000000000000
+      internalID: -6042636916420273706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_193
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 382
+        width: 48
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e3cbe0c5d43ef70800000000000000
+      internalID: 9215294320309714571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprints_PNG12_194
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 238
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ac9e823b9421dc0800000000000000
+      internalID: -3669789712519148962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 93c92a32dbdd2e34b875fb382dbf375a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Footprints_PNG12_0: -3831296468082219963
+      Footprints_PNG12_1: -3031925816566682396
+      Footprints_PNG12_10: -3384397215425873629
+      Footprints_PNG12_100: -9110207709200866971
+      Footprints_PNG12_101: 4451571897363164266
+      Footprints_PNG12_102: 6015087118113345580
+      Footprints_PNG12_103: -4804613904220454217
+      Footprints_PNG12_104: 8150709837713043087
+      Footprints_PNG12_105: 5191481090667006391
+      Footprints_PNG12_106: 8742942075632006590
+      Footprints_PNG12_107: -6451117120875374796
+      Footprints_PNG12_108: 2703102436252968085
+      Footprints_PNG12_109: -5756713691070522013
+      Footprints_PNG12_11: -6432548288071913533
+      Footprints_PNG12_110: -5788027262611347516
+      Footprints_PNG12_111: -6972192201866689582
+      Footprints_PNG12_112: 956214170018990918
+      Footprints_PNG12_113: 6702463293334532103
+      Footprints_PNG12_114: 8588951701309065830
+      Footprints_PNG12_115: -2109333222276932812
+      Footprints_PNG12_116: -1663882036206286928
+      Footprints_PNG12_117: 6664867662551201818
+      Footprints_PNG12_118: -7655549373381462965
+      Footprints_PNG12_119: -5079555752942033472
+      Footprints_PNG12_12: 3803604312263903227
+      Footprints_PNG12_120: 384986141207721583
+      Footprints_PNG12_121: -5672712643467644981
+      Footprints_PNG12_122: -6105825427070965796
+      Footprints_PNG12_123: 5434346813864115647
+      Footprints_PNG12_124: 7621619810136067326
+      Footprints_PNG12_125: -4771487496502804660
+      Footprints_PNG12_126: 4614303509993078722
+      Footprints_PNG12_127: -3037063329417496048
+      Footprints_PNG12_128: -2424866444635998753
+      Footprints_PNG12_129: -3917651760201282506
+      Footprints_PNG12_13: 5813872797237516352
+      Footprints_PNG12_130: 6201711191101042655
+      Footprints_PNG12_131: 592861211246929424
+      Footprints_PNG12_132: 5490817783154889414
+      Footprints_PNG12_133: 3279343315891947762
+      Footprints_PNG12_134: -3887098059023853918
+      Footprints_PNG12_135: -4590323563122635952
+      Footprints_PNG12_136: 3663364794951788804
+      Footprints_PNG12_137: 3662838790859932798
+      Footprints_PNG12_138: -3491880535591495805
+      Footprints_PNG12_139: -8820967379974640840
+      Footprints_PNG12_14: 2959865840663106427
+      Footprints_PNG12_140: 8130497181639793843
+      Footprints_PNG12_141: -1441560677426661855
+      Footprints_PNG12_142: 7179669875457085814
+      Footprints_PNG12_143: 3785489845872350577
+      Footprints_PNG12_144: 6316239339304942446
+      Footprints_PNG12_145: -390011949699389773
+      Footprints_PNG12_146: -2254571917751822975
+      Footprints_PNG12_147: -3189752967515085787
+      Footprints_PNG12_148: -7269701922396784194
+      Footprints_PNG12_149: -3109322525418882748
+      Footprints_PNG12_15: 1556817918427324800
+      Footprints_PNG12_150: 3008892820462460259
+      Footprints_PNG12_151: -7422490880063136270
+      Footprints_PNG12_152: 8688069264982716029
+      Footprints_PNG12_153: -3965745210086165651
+      Footprints_PNG12_154: 3111433102059700074
+      Footprints_PNG12_155: 957576878546998129
+      Footprints_PNG12_156: 733388546390716386
+      Footprints_PNG12_157: 5790220623511426117
+      Footprints_PNG12_158: 3723699502622477827
+      Footprints_PNG12_159: 1241690741645592588
+      Footprints_PNG12_16: 5477139117634250908
+      Footprints_PNG12_160: -4318421547977569093
+      Footprints_PNG12_161: 544222472535192752
+      Footprints_PNG12_162: -4726400467682129248
+      Footprints_PNG12_163: -4279177383340959148
+      Footprints_PNG12_164: -6789827023581886686
+      Footprints_PNG12_165: -5186813379418117195
+      Footprints_PNG12_166: -4946161223048168189
+      Footprints_PNG12_167: -4125916052173193818
+      Footprints_PNG12_168: 10906179382389803
+      Footprints_PNG12_169: -4347218351558433724
+      Footprints_PNG12_17: 8796921074413320068
+      Footprints_PNG12_170: 185174808224704476
+      Footprints_PNG12_171: 8803915995873573543
+      Footprints_PNG12_172: 4116137252680138299
+      Footprints_PNG12_173: -9027906042512099785
+      Footprints_PNG12_174: 303292112934993836
+      Footprints_PNG12_175: -792048488427657570
+      Footprints_PNG12_176: -5301005289338869969
+      Footprints_PNG12_177: 3597533264664374518
+      Footprints_PNG12_178: -4160911242144177285
+      Footprints_PNG12_179: -8918124409026727497
+      Footprints_PNG12_18: 129027353049974917
+      Footprints_PNG12_180: -1140504336550219462
+      Footprints_PNG12_181: -5568520051314271885
+      Footprints_PNG12_182: 3285547090109004137
+      Footprints_PNG12_183: 544083537752625193
+      Footprints_PNG12_184: -4073761497048522924
+      Footprints_PNG12_185: 1893405013909588984
+      Footprints_PNG12_186: -7550569754747928036
+      Footprints_PNG12_187: -7916537174928706697
+      Footprints_PNG12_188: -282084431481921648
+      Footprints_PNG12_189: -3327605483662270646
+      Footprints_PNG12_19: 7254269026224777369
+      Footprints_PNG12_190: -1665829118473348888
+      Footprints_PNG12_191: 3723783142566126492
+      Footprints_PNG12_192: -6042636916420273706
+      Footprints_PNG12_193: 9215294320309714571
+      Footprints_PNG12_194: -3669789712519148962
+      Footprints_PNG12_2: -8801595588773767229
+      Footprints_PNG12_20: -4521660836367917508
+      Footprints_PNG12_21: -5552740548134641145
+      Footprints_PNG12_22: 2829654309405207410
+      Footprints_PNG12_23: -8977341389759274601
+      Footprints_PNG12_24: 8381157742290746888
+      Footprints_PNG12_25: 3600763242700869393
+      Footprints_PNG12_26: 5949163192889419235
+      Footprints_PNG12_27: -7096106460452280481
+      Footprints_PNG12_28: 411529063361449967
+      Footprints_PNG12_29: -490548319652523854
+      Footprints_PNG12_3: 8288029417310374534
+      Footprints_PNG12_30: 1219143156466469237
+      Footprints_PNG12_31: 2607796550019861239
+      Footprints_PNG12_32: 2269035644802618256
+      Footprints_PNG12_33: 8272930540014582627
+      Footprints_PNG12_34: 2509122894414445817
+      Footprints_PNG12_35: 3837578629485210737
+      Footprints_PNG12_36: -738930304603665210
+      Footprints_PNG12_37: 7298830410568093027
+      Footprints_PNG12_38: 7462952792283396339
+      Footprints_PNG12_39: -1957613546968241124
+      Footprints_PNG12_4: -2128534670870384109
+      Footprints_PNG12_40: -9055426473784173696
+      Footprints_PNG12_41: 8830753638076666924
+      Footprints_PNG12_42: -4289114239114861108
+      Footprints_PNG12_43: -1755415891126670618
+      Footprints_PNG12_44: 4724938773663261882
+      Footprints_PNG12_45: 8848085165844627408
+      Footprints_PNG12_46: -86370633135964028
+      Footprints_PNG12_47: -7867252768982604719
+      Footprints_PNG12_48: 7344326722264814890
+      Footprints_PNG12_49: 153992515269265323
+      Footprints_PNG12_5: -5688079573079342149
+      Footprints_PNG12_50: -3422481443598785183
+      Footprints_PNG12_51: 2834198871899490746
+      Footprints_PNG12_52: 6904882753972165316
+      Footprints_PNG12_53: -5247716442840729254
+      Footprints_PNG12_54: -1696467779207621256
+      Footprints_PNG12_55: -8274735927658448710
+      Footprints_PNG12_56: -9017752214644573475
+      Footprints_PNG12_57: -2205354429981146423
+      Footprints_PNG12_58: -5502839602949823131
+      Footprints_PNG12_59: -7828078455802315646
+      Footprints_PNG12_6: -6368840726823050881
+      Footprints_PNG12_60: 1156947271694672009
+      Footprints_PNG12_61: -3438195732061599103
+      Footprints_PNG12_62: 1905300738982938882
+      Footprints_PNG12_63: 5483532924691935700
+      Footprints_PNG12_64: -1879567151699503728
+      Footprints_PNG12_65: -2121173498470962465
+      Footprints_PNG12_66: -6987185213016612851
+      Footprints_PNG12_67: -6693582225395363414
+      Footprints_PNG12_68: -7510758207999930628
+      Footprints_PNG12_69: 9030903755550446655
+      Footprints_PNG12_7: 1851885088587173541
+      Footprints_PNG12_70: 4399506627301124103
+      Footprints_PNG12_71: 5863611741408763024
+      Footprints_PNG12_72: 4132292335362006436
+      Footprints_PNG12_73: 6307781752037473711
+      Footprints_PNG12_74: 7200839687349082603
+      Footprints_PNG12_75: -5312264752816215122
+      Footprints_PNG12_76: 5727114566920442978
+      Footprints_PNG12_77: -3010524269532689278
+      Footprints_PNG12_78: 1101755222318966609
+      Footprints_PNG12_79: 1946669072961061576
+      Footprints_PNG12_8: -917848811595321255
+      Footprints_PNG12_80: -789295603584442226
+      Footprints_PNG12_81: -190308235682301489
+      Footprints_PNG12_82: 1559227893896531990
+      Footprints_PNG12_83: 977622379309585592
+      Footprints_PNG12_84: 2421349287743405480
+      Footprints_PNG12_85: -6552724151466564309
+      Footprints_PNG12_86: -7721724953642084325
+      Footprints_PNG12_87: 6202623342738538266
+      Footprints_PNG12_88: -5364774885392964381
+      Footprints_PNG12_89: -8137326612421707516
+      Footprints_PNG12_9: -6600912175443615566
+      Footprints_PNG12_90: 4246651144051335128
+      Footprints_PNG12_91: -4538569517909732403
+      Footprints_PNG12_92: -6978631234475580528
+      Footprints_PNG12_93: 7106288866086223232
+      Footprints_PNG12_94: 6425631493919492147
+      Footprints_PNG12_95: -2996084401732345618
+      Footprints_PNG12_96: -1139361152196333968
+      Footprints_PNG12_97: -1181787961694280358
+      Footprints_PNG12_98: 2088125451575731249
+      Footprints_PNG12_99: 2090171645975324490
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
