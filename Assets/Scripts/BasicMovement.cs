@@ -11,7 +11,6 @@ using Rewired;
 public class BasicMovement : MonoBehaviour
 {
     public GameObject foundItemPrompt;
-    public GameObject visualCursorObj;
     // The Rewired player id of this character
     public int playerId = 0;
 
@@ -34,7 +33,10 @@ public class BasicMovement : MonoBehaviour
     public float PanCamMin = 2;
     public float PanCamMax = 5;
 
-    string interactableObj = "";
+    string interactableObjName = "";
+    GameObject interactableObj;
+    string interactableUI = "";
+
     float newZoom = -14;
     float panZoom = 0;
     void Awake()
@@ -75,7 +77,6 @@ public class BasicMovement : MonoBehaviour
         if (moveVector.x != 0.0f || moveVector.y != 0.0f)
         {
             cc.Move(moveVector * moveSpeed * Time.deltaTime);
-            //visualCursorObj.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
         }
 
         panZoom = zoomVector.x * 7;
@@ -88,20 +89,39 @@ public class BasicMovement : MonoBehaviour
             panZoom = PanCamMax;
         }
 
-        //Debug.Log(panZoom);
-
         if (cameraVector.x != 0.0f || cameraVector.y != 0.0f)
         {           
             playerCamera.transform.position = new Vector3(cameraVector.x * panZoom, cameraVector.y * panZoom, newZoom);
         }
         
         if (clicked)
-        { 
-            if (interactableObj.Length > 2)
+        {
+
+            if (foundItemPrompt.activeSelf == false)
             {
-                foundItemPrompt.SetActive(true);
-                foundItemPrompt.GetComponent<FoundItemManager>().SetItemName(interactableObj);
+                if (interactableObjName.Length > 1)
+                {
+                    foundItemPrompt.SetActive(true);
+
+                    if (foundItemPrompt.GetComponentInChildren<FoundItemManager>() != null)
+                    {
+                        foundItemPrompt.GetComponentInChildren<FoundItemManager>().SetItemName(interactableObjName);
+                    }
+                }
             }
+            else //if active
+            {
+                Debug.Log(interactableUI);
+
+                if (interactableUI.CompareTo("Yes") == 0)
+                {
+                    interactableObj.SetActive(false);
+                }
+
+                foundItemPrompt.SetActive(false);
+            }
+
+
         }
 
         if (zoomVector.x != 0)
@@ -122,13 +142,21 @@ public class BasicMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        interactableObj = other.gameObject.name;
-
-        Debug.Log(interactableObj);
+        //is colletable(6) or UI element(7)
+        if (other.gameObject.layer == 6)
+        {
+            interactableObjName = other.gameObject.name;
+            interactableObj = other.gameObject;
+        }
+        else if (other.gameObject.layer == 7)
+        {
+            interactableUI = other.gameObject.name;
+        }
+        
     }
     private void OnTriggerExit(Collider other)
     {
-        interactableObj = "";
+        interactableObjName = "";
     }
 
     Vector3 GetCamPositionInWorld()
