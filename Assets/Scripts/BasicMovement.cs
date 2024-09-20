@@ -10,7 +10,8 @@ using Rewired;
 [RequireComponent(typeof(CharacterController))]
 public class BasicMovement : MonoBehaviour
 {
-
+    public GameObject foundItemPrompt;
+    public GameObject visualCursorObj;
     // The Rewired player id of this character
     public int playerId = 0;
 
@@ -22,23 +23,31 @@ public class BasicMovement : MonoBehaviour
     private CharacterController cc;
     private Vector3 moveVector;
     private Vector3 cameraVector;
+    private Vector3 zoomVector;
     private bool clicked;
-    private bool zoomed;
     
-    public float camZoomRangeMin = -10;
-    public float camZoomRangeMax = -1;
-    public float currZoom = 0;
+    [Header("Zooming Camera")]
+    public float camZoomRangeMin = -14;
+    public float camZoomRangeMax = -8;
 
+    [Header("Panning Camera")]
+    public float PanCamMin = 2;
+    public float PanCamMax = 5;
+
+    string interactableObj = "";
+    float newZoom = -14;
+    float panZoom = 0;
     void Awake()
     {
+        newZoom = camZoomRangeMin;
         // Get the Rewired Player object for this player and keep it for the duration of the character's lifetime
         cursor = ReInput.players.GetPlayer(playerId);
 
         playerCamera = Camera.main;
         // Get the character controller
         cc = GetComponent<CharacterController>();
-
-        StartCoroutine(DragCameraUpdate());
+        cc.detectCollisions = true;
+        
     }
 
     void Update()
@@ -49,17 +58,15 @@ public class BasicMovement : MonoBehaviour
 
     private void GetInput()
     {
-        // Get the input from the Rewired Player. All controllers that the Player owns will contribute, so it doesn't matter
-        // whether the input is coming from a joystick, the keyboard, mouse, or a custom controller.
 
-        moveVector.x = cursor.GetAxis("Move Horizontal"); // get input by name or action id
+        moveVector.x = cursor.GetAxis("Move Horizontal");
         moveVector.y = cursor.GetAxis("Move Vertical");
 
         cameraVector.x = cursor.GetAxis("Pan Horizontal");
         cameraVector.y = cursor.GetAxis("Pan Vertical");
 
         clicked = cursor.GetButtonDown("Click");
-        zoomed = cursor.GetButtonDown("Zoom");
+        zoomVector.x = cursor.GetAxis("Zoom");
     }
 
     private void ProcessInput()
@@ -68,55 +75,72 @@ public class BasicMovement : MonoBehaviour
         if (moveVector.x != 0.0f || moveVector.y != 0.0f)
         {
             cc.Move(moveVector * moveSpeed * Time.deltaTime);
+            //visualCursorObj.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
         }
 
-        // Process click
+        panZoom = zoomVector.x * 7;
+        if (panZoom <= 0.1)
+        {
+            panZoom = PanCamMin;
+        }
+        else if (panZoom > 6)
+        {
+            panZoom = PanCamMax;
+        }
+
+        //Debug.Log(panZoom);
+
+        if (cameraVector.x != 0.0f || cameraVector.y != 0.0f)
+        {           
+            playerCamera.transform.position = new Vector3(cameraVector.x * panZoom, cameraVector.y * panZoom, newZoom);
+        }
+        
         if (clicked)
-        {
-            //Debug.Log("click");
+        { 
+            if (interactableObj.Length > 2)
+            {
+                foundItemPrompt.SetActive(true);
+                foundItemPrompt.GetComponent<FoundItemManager>().SetItemName(interactableObj);
+            }
         }
-        if (zoomed)
-        {
-            if (currZoom >= camZoomRangeMax)
-            {
-                currZoom = camZoomRangeMin;
-            }
-            else if (currZoom < camZoomRangeMax)
-            {
-                currZoom += 0.5f;
-            }
 
-            playerCamera.transform.position = new Vector3(playerCamera.transform.position.x, playerCamera.transform.position.y, currZoom);
+        if (zoomVector.x != 0)
+        {
+            newZoom = (15 + (-8 * zoomVector.x)) * -1;
+            if (newZoom > camZoomRangeMax)
+            {
+                newZoom = camZoomRangeMax;
+            }
         }
+        else
+        {
+            newZoom = camZoomRangeMin;
+        }
+        playerCamera.transform.position = new Vector3(playerCamera.transform.position.x, playerCamera.transform.position.y, newZoom);
+        
     }
 
-    Vector3 GetMousePositionInWorld()
+    private void OnTriggerEnter(Collider other)
+    {
+        interactableObj = other.gameObject.name;
+
+        Debug.Log(interactableObj);
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        interactableObj = "";
+    }
+
+    Vector3 GetCamPositionInWorld()
     {
         Vector3 screenPosition = cameraVector;
 
         // If you're using a perspective camera for parallax, 
         // be sure to assign a depth to this point.
-        screenPosition.z = currZoom;
-        Debug.Log(currZoom);
+        // screenPosition.z = currZoom;
        
         return playerCamera.ScreenToWorldPoint(screenPosition);
     }
-    private IEnumerator DragCameraUpdate()
-    {
-        Vector3 initialMousePosition = GetMousePositionInWorld();
-
-        while (zoomed == false)
-        {
-            Vector3 currentMousePosition = GetMousePositionInWorld();
-            Vector3 travel = currentMousePosition - initialMousePosition;
-
-            // Remove any vertical travel to lock the motion to the horizontal plane.
-            travel.y = 0; 
-
-            playerCamera.transform.Translate(-travel, Space.World);
-
-            yield return null;
-        }
-    }
+     
 }
 
