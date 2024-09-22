@@ -12,10 +12,10 @@ public class BasicMovement : MonoBehaviour
 {
     public GameObject foundItemPrompt;
     // The Rewired player id of this character
-    public int playerId = 0;
+    int playerId = 0;
 
     // The movement speed of this character
-    public float moveSpeed = 3.0f;
+    public float moveSpeed = 10.0f;
 
     private Camera playerCamera;
     private Player cursor; // The Rewired Player
@@ -26,7 +26,7 @@ public class BasicMovement : MonoBehaviour
     private bool clicked;
     
     [Header("Zooming Camera")]
-    public float camZoomRangeMin = -14;
+    public float camZoomRangeMin = -15;
     public float camZoomRangeMax = -8;
 
     [Header("Panning Camera")]
@@ -39,6 +39,7 @@ public class BasicMovement : MonoBehaviour
 
     float newZoom = -14;
     float panZoom = 0;
+
     void Awake()
     {
         newZoom = camZoomRangeMin;
@@ -115,9 +116,11 @@ public class BasicMovement : MonoBehaviour
 
                 if (interactableUI.CompareTo("Yes") == 0)
                 {
-                    interactableObj.SetActive(false);
+                    if (interactableObj.gameObject.layer == 8)
+                    {
+                        interactableObj.SetActive(false);
+                    }
                 }
-
                 foundItemPrompt.SetActive(false);
             }
 
@@ -142,11 +145,12 @@ public class BasicMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //is colletable(6) or UI element(7)
-        if (other.gameObject.layer == 6)
+        //is colletable(6) or UI element(7) or Pickup(8)
+        if (other.gameObject.layer == 6 || other.gameObject.layer == 8)
         {
             interactableObjName = other.gameObject.name;
             interactableObj = other.gameObject;
+            
         }
         else if (other.gameObject.layer == 7)
         {
