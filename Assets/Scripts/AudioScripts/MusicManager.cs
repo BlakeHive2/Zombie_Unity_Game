@@ -35,14 +35,22 @@ public class MusicManager : MonoBehaviour
     {
         
     }
-   
+
+    public void FadeFromTo(GameObject fromObj, GameObject toObj)
+    {
+        fadeOutSection = fromObj;
+        fadeInSection = toObj;
+
+        fadeInSrc = fadeInSection.GetComponentsInChildren<AudioSource>();
+        fadeOutSrc = fadeOutSection.GetComponentsInChildren<AudioSource>();
+
+        DoFade = true;
+    }
     void Update()
     {
         if (DoFade == true)
         {
-            fadeInSrc = fadeInSection.GetComponentsInChildren<AudioSource>();
-            fadeOutSrc = fadeOutSection.GetComponentsInChildren<AudioSource>();
-
+            
             StartCoroutine(ChangeFadeClips());
             gameObject.GetComponent<CameraFadeManager>().doVisualFade();
             DoFade = false;
