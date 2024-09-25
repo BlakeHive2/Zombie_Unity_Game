@@ -9,7 +9,7 @@ using Rewired;
 public enum ColliderType
 {
     kInteractable = 6,
-    kUIElement = 7, 
+    kUIElement = 7,
     kPickup = 8,
     kDoor = 9
 

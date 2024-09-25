@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
@@ -11,8 +12,7 @@ public enum InteractableType
     InventoryItem_Type,
     Note_Journal_Type,
     Puzzle_Type
-}
-
+} 
 /// <summary>
 /// Gameobject that can be placed by artist anywhere to set up a new clickable area to interact with.
 /// </summary>
@@ -21,10 +21,9 @@ public enum InteractableType
 [RequireComponent(typeof(CapsuleCollider))]
 public class InteractableManager : MonoBehaviour
 {
-    [Header("MANDATORY SETTINGS!!")]
+    [Header("MANDATORY SETTINGS:")]
     public InteractableType objectType;
     public bool DoesMoveWithBackground = true;
-    public PrimaryGameUIManager PrimaryGameUI;
 
     [Header("TOGGLED OBJECTS:")]
     public GameObject[] turnOffObjects;
@@ -39,6 +38,19 @@ public class InteractableManager : MonoBehaviour
     public AudioClip SoundClip;
     public bool DoLoopAudio = false;
 
+    
+
+    [Serializable]
+    public struct DialogueText
+    {
+        public string[] dialogue;
+        public string[] options;
+    }
+
+    [Header("DIALOGUE OPTIONS:")]
+    public DialogueText[] dialogue;
+
+    //
     private AudioSource audioSrc;
     private GameObject ItemNamePrefab;
     private GameObject oldPrimary;
@@ -78,7 +90,7 @@ public class InteractableManager : MonoBehaviour
 
     void SetUpUIObjects()
     {
-        UIForFoundItem = PrimaryGameUI.FoundItemUI;
+        UIForFoundItem = PrimaryGameUIManager.instance.FoundItemUI;
     }
     void SetUpTextPrefab()
     {
