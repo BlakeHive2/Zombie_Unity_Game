@@ -66,14 +66,14 @@ public class InteractableManager : MonoBehaviour
 
         AssignTagAndLayer();
 
-        SetUpUIObjects();
+        
 
         SetUpToggleObjects();
     }
 
     void Start()
     {
-
+        SetUpUIObjects();
     }
 
     void SetUpUIObjects()
