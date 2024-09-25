@@ -8,7 +8,7 @@ using Rewired;
 //Click: Right Trigger
 public enum ColliderType
 {
-    kCollectable = 6,
+    kInteractable = 6,
     kUIElement = 7, 
     kPickup = 8,
     kDoor = 9
@@ -107,63 +107,13 @@ public class BasicMovement : MonoBehaviour
         
         if (clicked)
         {
-            //Show Found Prompt Or Open Door
-            if (foundItemPrompt.activeSelf == false)
+            if (interactableObj != null)
             {
-                if (interactableObj.gameObject.layer == (int)ColliderType.kDoor)
-                {
-                    string doorItem = interactableObj.name;
-                    doorItem = doorItem.Substring(5);
-                    GameObject toSection = null;
-                    GameObject fromSeciton = null;
-                    for (int i = 0; i < allSections.Length; i ++)
-                    {
-                        if (allSections[i].name.CompareTo(doorItem) == 0)
-                        {
-                            toSection = allSections[i];
-                        }
-                        if (allSections[i].activeInHierarchy == true)
-                        {
-                            fromSeciton = allSections[i];
-                        }
-                        Debug.Log(allSections[i].name  + " " + toSection + "  " + fromSeciton);
-                        if (i >= allSections.Length - 1)
-                        {
-                            Debug.Log("FINAL      " + toSection.name + "  " + fromSeciton.name);
-                            fadeManager.GetComponent<MusicManager>().FadeFromTo(fromSeciton, toSection);
-                            playerCamera = toSection.transform.GetChild(0).GetComponent<Camera>();
-                        }
-                    }
-                    
-                }
-                else
-                {
-                    if (interactableObjName.Length > 1)
-                    {
-                        foundItemPrompt.SetActive(true);
-
-                        if (foundItemPrompt.GetComponentInChildren<FoundItemManager>() != null)
-                        {
-                            foundItemPrompt.GetComponentInChildren<FoundItemManager>().SetItemName(interactableObjName);
-                        }
-                    }
-                }                                
+                interactableObj.GetComponent<InteractableManager>()._ClickedFunction(this);
+                //interactableObj.GetComponent<InteractableManager>()._ClickedAddToInventory();
+               
             }
-            else //if active
-            {
-                // UI Is Up, select YES
-                if (interactableUI.CompareTo("Yes") == 0)
-                {
-                    if (interactableObj.gameObject.layer == (int)ColliderType.kPickup)
-                    {
-                        interactableObj.SetActive(false);
-                    }
-                }
-
-                foundItemPrompt.SetActive(false);
-            }
-
-
+            
         }
 
         if (zoomVector.x != 0)
@@ -187,8 +137,14 @@ public class BasicMovement : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log(other.gameObject.layer);
+        if (other.gameObject.layer == (int)ColliderType.kInteractable)
+        {
+            other.gameObject.GetComponent<InteractableManager>()._OnEnterHover();
+            interactableObj = other.gameObject;
+        }
+         
 
-        if (other.gameObject.layer == (int)ColliderType.kCollectable || other.gameObject.layer == (int)ColliderType.kPickup)
+        /*if (other.gameObject.layer == (int)ColliderType.kInteractable || other.gameObject.layer == (int)ColliderType.kPickup)
         {
             interactableObjName = other.gameObject.name;
             interactableObj = other.gameObject;            
@@ -200,25 +156,27 @@ public class BasicMovement : MonoBehaviour
         else if (other.gameObject.layer == (int)ColliderType.kDoor)
         {
             interactableObj = other.gameObject;
-        }
+        }*/
 
     }
     private void OnTriggerExit(Collider other)
     {
-        interactableObjName = "";
-        //interactableObj = null;
+        if (other.gameObject.layer == (int)ColliderType.kInteractable)
+        {
+            other.gameObject.GetComponent<InteractableManager>()._OnExitHover();
+
+            interactableObj = null;
+        }
+        if (other.gameObject.layer == (int)ColliderType.kUIElement)
+        {
+            interactableUI = null;
+
+        }
     }
 
-    Vector3 GetCamPositionInWorld()
+    public void SetNewCamera(Camera newCamera)
     {
-        Vector3 screenPosition = cameraVector;
-
-        // If you're using a perspective camera for parallax, 
-        // be sure to assign a depth to this point.
-        // screenPosition.z = currZoom;
-       
-        return playerCamera.ScreenToWorldPoint(screenPosition);
+        playerCamera = newCamera;
     }
-     
 }
 

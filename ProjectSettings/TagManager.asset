@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Collectable
   - UI Element
+  - Interactable
   layers:
   - Default
   - TransparentFX
@@ -13,10 +13,10 @@ TagManager:
   - 
   - Water
   - UI
-  - Collectable
+  - Interactable
   - UI Interactable
-  - PickUp
-  - Door
+  - 
+  - 
   - 
   - 
   - 
