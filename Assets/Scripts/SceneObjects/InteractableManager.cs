@@ -24,7 +24,7 @@ public class InteractableManager : MonoBehaviour
     [Header("MANDATORY SETTINGS!!")]
     public InteractableType objectType;
     public bool DoesMoveWithBackground = true;
-    public GameObject PrimaryGameUI;
+    public PrimaryGameUIManager PrimaryGameUI;
 
     [Header("TOGGLED OBJECTS:")]
     public GameObject[] turnOffObjects;
@@ -78,7 +78,7 @@ public class InteractableManager : MonoBehaviour
 
     void SetUpUIObjects()
     {
-        UIForFoundItem = PrimaryGameUI.transform.GetComponentInChildren<FoundItemManager>().gameObject;
+        UIForFoundItem = PrimaryGameUI.FoundItemUI;
     }
     void SetUpTextPrefab()
     {
@@ -107,14 +107,22 @@ public class InteractableManager : MonoBehaviour
     }
     void SetUpToggleObjects()
     {
-        for (int i = 0; i < turnOffObjects.Length; i++)
+        if (turnOffObjects != null)
         {
-            turnOffObjects[i].SetActive(true);
+            for (int i = 0; i < turnOffObjects.Length; i++)
+            {
+                turnOffObjects[i].SetActive(true);
+            }
         }
-        for (int i = 0; i < turnOnObjects.Length; i++)
+        if (turnOnObjects != null)
         {
-            turnOnObjects[i].SetActive(false);
+            for (int i = 0; i < turnOnObjects.Length; i++)
+            {
+                turnOnObjects[i].SetActive(false);
+            }
         }
+        
+        
     }
     void AssignTagAndLayer()
     {

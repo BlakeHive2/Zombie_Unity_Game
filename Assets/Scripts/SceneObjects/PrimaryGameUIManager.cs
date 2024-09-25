@@ -7,11 +7,11 @@ public class PrimaryGameUIManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
-        FoundItemUI = transform.GetComponentInChildren<FoundItemManager>().gameObject;
+       // FoundItemUI = transform.GetComponentInChildren<FoundItemManager>().gameObject;
     }
 
     void Start()
     {
-        FoundItemUI.SetActive(false);
+       // FoundItemUI.SetActive(false);
     }
 }
