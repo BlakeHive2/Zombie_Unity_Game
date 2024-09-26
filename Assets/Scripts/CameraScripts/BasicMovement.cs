@@ -68,16 +68,13 @@ public class BasicMovement : MonoBehaviour
         // If you want to change joystick pointer speed
         mouse.xAxis.actionName = "Move Horizontal";
         mouse.yAxis.actionName = "Move Vertical";
+        mouse.leftButton.actionName = "Click";
         mouse.screenPosition = new Vector2(Screen.width * 0.5f, Screen.height * 0.5f);
         mouse.ScreenPositionChangedEvent += OnScreenPositionChanged;
 
         // Get the initial position
         OnScreenPositionChanged(mouse.screenPosition);
-        //mouse.useHardwarePointerPosition = true;//useHardwareCursorPositionForMouseInput = true;
         //mouse.wheel.yAxis.actionName = wheelAction;
-        //mouse.leftButton.actionName = leftButtonAction;
-        //mouse.rightButton.actionName = rightButtonAction;
-        //mouse.middleButton.actionName = middleButtonAction;
         //mouse.pointerSpeed = 10f;
 
         playerCamera = Camera.main;
@@ -165,13 +162,12 @@ public class BasicMovement : MonoBehaviour
             moveVector.x = cursor.GetAxis("Move Horizontal");
             moveVector.y = cursor.GetAxis("Move Vertical");
             cameraVector.x = cursor.GetAxis("Pan Horizontal");
-            cameraVector.y = cursor.GetAxis("Pan Vertical");
-
-            clicked = cursor.GetButtonDown("Click");
+            cameraVector.y = cursor.GetAxis("Pan Vertical");           
             zoomVector.x = cursor.GetAxis("Zoom");
         }
+        clicked = cursor.GetButtonDown("Click");
 
-        
+
     }
 
     private void ProcessInput()
