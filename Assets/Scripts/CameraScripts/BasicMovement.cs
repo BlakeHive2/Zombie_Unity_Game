@@ -28,7 +28,12 @@ public class BasicMovement : MonoBehaviour
     public float moveSpeed = 10.0f;
 
     private Camera playerCamera;
+
     private Player cursor; // The Rewired Player
+    [System.NonSerialized]
+    private PlayerMouse mouse;
+    public float distanceFromCam = 15f;
+
     private CharacterController cc;
     private Vector3 moveVector;
     private Vector3 cameraVector;
@@ -56,6 +61,24 @@ public class BasicMovement : MonoBehaviour
        
         // Get the Rewired Player object for this player and keep it for the duration of the character's lifetime
         cursor = ReInput.players.GetPlayer(playerId);
+
+        mouse = PlayerMouse.Factory.Create();
+        mouse.playerId = playerId;
+        
+        // If you want to change joystick pointer speed
+        mouse.xAxis.actionName = "Move Horizontal";
+        mouse.yAxis.actionName = "Move Vertical";
+        mouse.screenPosition = new Vector2(Screen.width * 0.5f, Screen.height * 0.5f);
+        mouse.ScreenPositionChangedEvent += OnScreenPositionChanged;
+
+        // Get the initial position
+        OnScreenPositionChanged(mouse.screenPosition);
+        //mouse.useHardwarePointerPosition = true;//useHardwareCursorPositionForMouseInput = true;
+        //mouse.wheel.yAxis.actionName = wheelAction;
+        //mouse.leftButton.actionName = leftButtonAction;
+        //mouse.rightButton.actionName = rightButtonAction;
+        //mouse.middleButton.actionName = middleButtonAction;
+        //mouse.pointerSpeed = 10f;
 
         playerCamera = Camera.main;
         // Get the character controller
@@ -90,6 +113,8 @@ public class BasicMovement : MonoBehaviour
     {
 
         PrimaryGameUIManager.instance.useMouse = true;
+        mouse.screenPosition = new Vector2(Screen.width * 0.5f, Screen.height * 0.5f);
+        //mouse.screenPosition = new Vector2(Screen.width * 0.5f, Screen.height * 0.5f);
         Debug.Log("A controller was disconnected! Name = " + args.name + " Id = " + args.controllerId + " Type = " + args.controllerType);
     }
 
@@ -100,9 +125,18 @@ public class BasicMovement : MonoBehaviour
     {
         Debug.Log("A controller is being disconnected! Name = " + args.name + " Id = " + args.controllerId + " Type = " + args.controllerType);
     }
+    void OnScreenPositionChanged(Vector2 position)
+    {
 
+        // Convert from screen space to world space
+        Vector3 worldPos = Camera.main.ScreenToWorldPoint(new Vector3(position.x, position.y, distanceFromCam));
+
+        // Move the pointer object
+        transform.position = worldPos;
+    }
     void OnDestroy()
     {
+        mouse.ScreenPositionChangedEvent -= OnScreenPositionChanged;
         // Unsubscribe from events
         ReInput.ControllerConnectedEvent -= OnControllerConnected;
         ReInput.ControllerDisconnectedEvent -= OnControllerDisconnected;
@@ -126,14 +160,18 @@ public class BasicMovement : MonoBehaviour
             }
         }
 
-        moveVector.x = cursor.GetAxis("Move Horizontal");
-        moveVector.y = cursor.GetAxis("Move Vertical");
+        if (PrimaryGameUIManager.instance.useMouse == false)
+        {
+            moveVector.x = cursor.GetAxis("Move Horizontal");
+            moveVector.y = cursor.GetAxis("Move Vertical");
+            cameraVector.x = cursor.GetAxis("Pan Horizontal");
+            cameraVector.y = cursor.GetAxis("Pan Vertical");
 
-        cameraVector.x = cursor.GetAxis("Pan Horizontal");
-        cameraVector.y = cursor.GetAxis("Pan Vertical");
+            clicked = cursor.GetButtonDown("Click");
+            zoomVector.x = cursor.GetAxis("Zoom");
+        }
 
-        clicked = cursor.GetButtonDown("Click");
-        zoomVector.x = cursor.GetAxis("Zoom");
+        
     }
 
     private void ProcessInput()
