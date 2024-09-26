@@ -30,22 +30,6 @@ public class PrimaryGameUIManager : MonoBehaviour
     void Awake()
     {
         SingletonFunction();
-
-        if (useMouse)
-        {
-            PlayerMouse mouse = PlayerMouse.Factory.Create();
-
-            // Set the owner
-            mouse.playerId = 0;
-
-            // Set up Actions for each axis and button
-            mouse.xAxis.actionName = "Move Horizontal";
-            mouse.yAxis.actionName = "Move Vertical";
-            mouse.wheel.yAxis.actionName = "Zoom";
-            mouse.leftButton.actionName = "Click";
-            //mouse.rightButton.actionName = rightButtonAction;
-            //mouse.middleButton.actionName = middleButtonAction;
-        }
     }
 
     void Start()

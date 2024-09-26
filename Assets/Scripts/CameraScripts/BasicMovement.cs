@@ -53,6 +53,7 @@ public class BasicMovement : MonoBehaviour
     void Awake()
     {
         newZoom = camZoomRangeMin;
+       
         // Get the Rewired Player object for this player and keep it for the duration of the character's lifetime
         cursor = ReInput.players.GetPlayer(playerId);
 
@@ -60,9 +61,53 @@ public class BasicMovement : MonoBehaviour
         // Get the character controller
         cc = GetComponent<CharacterController>();
         cc.detectCollisions = true;
-        
     }
 
+    void Start()
+    {
+        if (PrimaryGameUIManager.instance.useMouse)
+        {
+            cursor.controllers.hasMouse = true; 
+        }
+        ReInput.ControllerConnectedEvent += OnControllerConnected;
+        ReInput.ControllerDisconnectedEvent += OnControllerDisconnected;
+        ReInput.ControllerPreDisconnectEvent += OnControllerPreDisconnect;
+    }
+    // This function will be called when a controller is connected
+    // You can get information about the controller that was connected via the args parameter
+    void OnControllerConnected(ControllerStatusChangedEventArgs args)
+    {
+        if (args.controllerType == Rewired.ControllerType.Joystick)
+        {
+            PrimaryGameUIManager.instance.useMouse = false;
+        }
+        Debug.Log("A controller was connected! Name = " + args.name + " Id = " + args.controllerId + " Type = " + args.controllerType);
+    }
+
+    // This function will be called when a controller is fully disconnected
+    // You can get information about the controller that was disconnected via the args parameter
+    void OnControllerDisconnected(ControllerStatusChangedEventArgs args)
+    {
+
+        PrimaryGameUIManager.instance.useMouse = true;
+        Debug.Log("A controller was disconnected! Name = " + args.name + " Id = " + args.controllerId + " Type = " + args.controllerType);
+    }
+
+    // This function will be called when a controller is about to be disconnected
+    // You can get information about the controller that is being disconnected via the args parameter
+    // You can use this event to save the controller's maps before it's disconnected
+    void OnControllerPreDisconnect(ControllerStatusChangedEventArgs args)
+    {
+        Debug.Log("A controller is being disconnected! Name = " + args.name + " Id = " + args.controllerId + " Type = " + args.controllerType);
+    }
+
+    void OnDestroy()
+    {
+        // Unsubscribe from events
+        ReInput.ControllerConnectedEvent -= OnControllerConnected;
+        ReInput.ControllerDisconnectedEvent -= OnControllerDisconnected;
+        ReInput.ControllerPreDisconnectEvent -= OnControllerPreDisconnect;
+    }
     void Update()
     {
         GetInput();
@@ -71,6 +116,15 @@ public class BasicMovement : MonoBehaviour
 
     private void GetInput()
     {
+
+        cursor.controllers.hasMouse = PrimaryGameUIManager.instance.useMouse;
+        if (cursor.controllers.GetLastActiveController() != null)
+        {
+            if (PrimaryGameUIManager.instance.useMouse == true && cursor.controllers.GetLastActiveController().type == Rewired.ControllerType.Joystick)
+            {
+                PrimaryGameUIManager.instance.useMouse = false;
+            }
+        }
 
         moveVector.x = cursor.GetAxis("Move Horizontal");
         moveVector.y = cursor.GetAxis("Move Vertical");
@@ -136,7 +190,7 @@ public class BasicMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.gameObject.layer);
+     //   Debug.Log(other.gameObject.layer);
         if (other.gameObject.layer == (int)ColliderType.kInteractable)
         {
             other.gameObject.GetComponent<InteractableManager>()._OnEnterHover();
