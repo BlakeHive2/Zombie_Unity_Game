@@ -164,7 +164,6 @@ public class BasicMovement : MonoBehaviour
             moveVector.y = cursor.GetAxis("Move Vertical");
             cameraVector.x = cursor.GetAxis("Pan Horizontal");
             cameraVector.y = cursor.GetAxis("Pan Vertical");           
-            
         }
         zoomVector.x = cursor.GetAxis("Zoom");
        // Debug.Log(zoomVector);
@@ -181,7 +180,7 @@ public class BasicMovement : MonoBehaviour
         {
             cc.Move(moveVector * moveSpeed * Time.deltaTime);
         }
-
+        //Panning
         panZoom = zoomVector.x * 7;
         if (panZoom <= 0.1)
         {
@@ -193,10 +192,12 @@ public class BasicMovement : MonoBehaviour
         }
 
         if (cameraVector.x != 0.0f || cameraVector.y != 0.0f)
-        {           
+        {
             playerCamera.transform.position = new Vector3(cameraVector.x * panZoom, cameraVector.y * panZoom, newZoom);
         }
-        
+
+
+        //clicking
         if (clicked)
         {
             if (interactableObj != null)
@@ -206,18 +207,47 @@ public class BasicMovement : MonoBehaviour
             
         }
 
-        if (zoomVector.x != 0)
+        //ZOOMING
+        if (PrimaryGameUIManager.instance.useMouse == false)
         {
-            newZoom = (15 + (-8 * zoomVector.x)) * -1;
-
-            if (newZoom > camZoomRangeMax)
+            if (zoomVector.x != 0)
             {
-                newZoom = camZoomRangeMax;
+                newZoom = (15 + (-8 * zoomVector.x)) * -1;
+
+                if (newZoom > camZoomRangeMax)
+                {
+                    newZoom = camZoomRangeMax;
+                }
+            }
+            else
+            {
+                newZoom = camZoomRangeMin;
             }
         }
-        else
+        else //use MOUSE
         {
-            newZoom = camZoomRangeMin;
+            //zoom in
+            if (zoomVector.x > 0)
+            {
+                newZoom++;
+                if (newZoom > camZoomRangeMax)
+                {
+                    newZoom = camZoomRangeMax;
+                }
+            }
+            //zoom out
+            else if (zoomVector.x < 0)
+            {
+                newZoom--;
+                if (newZoom < camZoomRangeMin)
+                {
+                    newZoom = camZoomRangeMin;
+                }
+            }
+            else
+            {
+                //do nothing
+            }
         }
 
         playerCamera.transform.position = new Vector3(playerCamera.transform.position.x, playerCamera.transform.position.y, newZoom);
@@ -232,23 +262,9 @@ public class BasicMovement : MonoBehaviour
             other.gameObject.GetComponent<InteractableManager>()._OnEnterHover();
             interactableObj = other.gameObject;
         }
-         
-
-        /*if (other.gameObject.layer == (int)ColliderType.kInteractable || other.gameObject.layer == (int)ColliderType.kPickup)
-        {
-            interactableObjName = other.gameObject.name;
-            interactableObj = other.gameObject;            
-        }
-        else if (other.gameObject.layer == (int)ColliderType.kUIElement)
-        {
-            interactableUI = other.gameObject.name;
-        }
-        else if (other.gameObject.layer == (int)ColliderType.kDoor)
-        {
-            interactableObj = other.gameObject;
-        }*/
 
     }
+
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.layer == (int)ColliderType.kInteractable)
