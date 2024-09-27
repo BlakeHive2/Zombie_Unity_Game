@@ -181,19 +181,30 @@ public class BasicMovement : MonoBehaviour
             cc.Move(moveVector * moveSpeed * Time.deltaTime);
         }
         //Panning
-        panZoom = zoomVector.x * 7;
-        if (panZoom <= 0.1)
+        if (PrimaryGameUIManager.instance.useMouse == false)
         {
-            panZoom = PanCamMin;
-        }
-        else if (panZoom > 6)
-        {
-            panZoom = PanCamMax;
-        }
+            panZoom = zoomVector.x * 7;
+            if (panZoom <= 0.1)
+            {
+                panZoom = PanCamMin;
+            }
+            else if (panZoom > 6)
+            {
+                panZoom = PanCamMax;
+            }
 
-        if (cameraVector.x != 0.0f || cameraVector.y != 0.0f)
+            if (cameraVector.x != 0.0f || cameraVector.y != 0.0f)
+            {
+                playerCamera.transform.position = new Vector3(cameraVector.x * panZoom, cameraVector.y * panZoom, newZoom);
+            }
+        }
+        //using Mouse
+        else
         {
-            playerCamera.transform.position = new Vector3(cameraVector.x * panZoom, cameraVector.y * panZoom, newZoom);
+            if (newZoom != camZoomRangeMax)
+            {
+                //check mouse
+            }
         }
 
 
@@ -249,7 +260,7 @@ public class BasicMovement : MonoBehaviour
                 //do nothing
             }
         }
-
+        distanceFromCam = newZoom * -1;
         playerCamera.transform.position = new Vector3(playerCamera.transform.position.x, playerCamera.transform.position.y, newZoom);
         
     }
