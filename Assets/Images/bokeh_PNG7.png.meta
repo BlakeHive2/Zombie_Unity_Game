@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bokeh_PNG7_0: 256101918047394827
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
