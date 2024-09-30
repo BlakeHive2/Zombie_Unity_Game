@@ -292,13 +292,11 @@ public class BasicMovement : MonoBehaviour
         if (other.gameObject.layer == (int)ColliderType.kInteractable)
         {
             other.gameObject.GetComponent<InteractableManager>()._OnExitHover();
-
-            interactableObj = null;
         }
+
         if (other.gameObject.layer == (int)ColliderType.kUIElement)
         {
             interactableUI = null;
-
         }
     }
 

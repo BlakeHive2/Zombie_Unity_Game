@@ -24,6 +24,7 @@ public class InteractableManager : MonoBehaviour
     [Header("MANDATORY SETTINGS:")]
     public InteractableType objectType;
     public bool DoesMoveWithBackground = true;
+    public float yOffsetForLabel = 3;
 
     [Header("TOGGLED OBJECTS:")]
     public GameObject[] turnOffObjects;
@@ -95,7 +96,7 @@ public class InteractableManager : MonoBehaviour
         //load in prefab and attach as child
         ItemNamePrefab = Instantiate(Resources.Load<GameObject>("Prefabs/ItemNameCanvas")) as GameObject;
         ItemNamePrefab.transform.parent = gameObject.transform;
-
+        ItemNamePrefab.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - yOffsetForLabel, 0);
         ItemNamePrefab.GetComponentInChildren<TextMeshProUGUI>().text = gameObject.name;
         ItemNamePrefab.SetActive(false);
     }
