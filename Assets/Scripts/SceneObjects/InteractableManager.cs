@@ -159,6 +159,7 @@ public class InteractableManager : MonoBehaviour
                 GoThroughDoor();
                 break;
             case InteractableType.InventoryItem_Type:
+                mvmtManager.canClick = false;
                 ShowFoundItemUI();
                 break;
             case InteractableType.Note_Journal_Type:
@@ -205,13 +206,12 @@ public class InteractableManager : MonoBehaviour
     {
         //set name label
         UIForFoundItem.SetActive(true);
-        UIForFoundItem.GetComponent<FoundItemManager>().SetItemName(gameObject.name);
+        UIForFoundItem.GetComponent<FoundItemManager>().SetItemName(gameObject.name, this);
     }
     void ShowDocumentUI()
     {
-        //set name label
         UIForFoundDocument.SetActive(true);
-        //UIForFoundDocument.GetComponent<DocumentManager>().SetDocument(gameObject.name, this);
+        UIForFoundDocument.GetComponent<DocumentManager>().SetDialogue(dialogue, this);
     }
 
     void ShowPuzzleUI()

@@ -6,6 +6,7 @@ public class FoundItemManager : MonoBehaviour
 {
     public Text itemName;
 
+    private InteractableManager interactable;
     private Player cursor; // The Rewired Player
     private bool clicked;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -14,6 +15,15 @@ public class FoundItemManager : MonoBehaviour
         cursor = ReInput.players.GetPlayer(0);
 
     }
+    void OnEnable()
+    {
+
+    }
+    void OnDisable()
+    {
+        interactable._restoreClicks();
+    }
+
     void Update()
     {
         GetInput();
@@ -32,8 +42,9 @@ public class FoundItemManager : MonoBehaviour
         }
     }
 
-    public void SetItemName(string newName)
+    public void SetItemName(string newName, InteractableManager newInteractable)
     {
         itemName.text = newName;
+        interactable = newInteractable;
     }
 }
