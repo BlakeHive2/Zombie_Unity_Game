@@ -7,7 +7,7 @@ public class PrimaryGameUIManager : MonoBehaviour
 
     public static PrimaryGameUIManager instance;
     [Header("MOUSE/CONTROL SETTINGS:")]
-    public bool useMouse = false;
+    public bool usingMouse = true;
 
     [Header("Mandatory UI Connections:")]
     public GameObject FoundItemUI;

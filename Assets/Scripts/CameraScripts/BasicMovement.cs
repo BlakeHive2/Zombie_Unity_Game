@@ -39,7 +39,12 @@ public class BasicMovement : MonoBehaviour
     private Vector3 cameraVector;
     private Vector3 zoomVector;
     private bool clicked;
-    
+    /// <summary>
+    /// Set to false when another UI element is up, like Dialogue
+    /// </summary>
+    [HideInInspector()]
+    public bool canClick = true;
+
     [Header("Zooming Camera")]
     public float camZoomRangeMin = -15;
     public float camZoomRangeMax = -8;
@@ -86,7 +91,7 @@ public class BasicMovement : MonoBehaviour
 
     void Start()
     {
-        if (PrimaryGameUIManager.instance.useMouse)
+        if (PrimaryGameUIManager.instance.usingMouse)
         {
             cursor.controllers.hasMouse = true; 
         }
@@ -100,7 +105,7 @@ public class BasicMovement : MonoBehaviour
     {
         if (args.controllerType == Rewired.ControllerType.Joystick)
         {
-            PrimaryGameUIManager.instance.useMouse = false;
+            PrimaryGameUIManager.instance.usingMouse = false;
         }
         Debug.Log("A controller was connected! Name = " + args.name + " Id = " + args.controllerId + " Type = " + args.controllerType);
     }
@@ -110,7 +115,7 @@ public class BasicMovement : MonoBehaviour
     void OnControllerDisconnected(ControllerStatusChangedEventArgs args)
     {
 
-        PrimaryGameUIManager.instance.useMouse = true;
+        PrimaryGameUIManager.instance.usingMouse = true;
         mouse.screenPosition = new Vector2(Screen.width * 0.5f, Screen.height * 0.5f);
         //mouse.screenPosition = new Vector2(Screen.width * 0.5f, Screen.height * 0.5f);
         Debug.Log("A controller was disconnected! Name = " + args.name + " Id = " + args.controllerId + " Type = " + args.controllerType);
@@ -149,16 +154,16 @@ public class BasicMovement : MonoBehaviour
     private void GetInput()
     {
 
-        cursor.controllers.hasMouse = PrimaryGameUIManager.instance.useMouse;
+        cursor.controllers.hasMouse = PrimaryGameUIManager.instance.usingMouse;
         if (cursor.controllers.GetLastActiveController() != null)
         {
-            if (PrimaryGameUIManager.instance.useMouse == true && cursor.controllers.GetLastActiveController().type == Rewired.ControllerType.Joystick)
+            if (PrimaryGameUIManager.instance.usingMouse == true && cursor.controllers.GetLastActiveController().type == Rewired.ControllerType.Joystick)
             {
-                PrimaryGameUIManager.instance.useMouse = false;
+                PrimaryGameUIManager.instance.usingMouse = false;
             }
         }
 
-        if (PrimaryGameUIManager.instance.useMouse == false)
+        if (PrimaryGameUIManager.instance.usingMouse == false)
         {
             moveVector.x = cursor.GetAxis("Move Horizontal");
             moveVector.y = cursor.GetAxis("Move Vertical");
@@ -181,7 +186,7 @@ public class BasicMovement : MonoBehaviour
             cc.Move(moveVector * moveSpeed * Time.deltaTime);
         }
         //Panning
-        if (PrimaryGameUIManager.instance.useMouse == false)
+        if (PrimaryGameUIManager.instance.usingMouse == false)
         {
             panZoom = zoomVector.x * 7;
             if (panZoom <= 0.1)
@@ -207,19 +212,22 @@ public class BasicMovement : MonoBehaviour
             }
         }
 
-
-        //clicking
-        if (clicked)
+        if (canClick)
         {
-            if (interactableObj != null)
+            //clicking
+            if (clicked)
             {
-                interactableObj.GetComponent<InteractableManager>()._ClickedFunction(this);               
+                if (interactableObj != null)
+                {
+                    interactableObj.GetComponent<InteractableManager>()._ClickedFunction(this);
+                }
+
             }
-            
         }
+        
 
         //ZOOMING
-        if (PrimaryGameUIManager.instance.useMouse == false)
+        if (PrimaryGameUIManager.instance.usingMouse == false)
         {
             if (zoomVector.x != 0)
             {
@@ -267,11 +275,14 @@ public class BasicMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-     //   Debug.Log(other.gameObject.layer);
-        if (other.gameObject.layer == (int)ColliderType.kInteractable)
+        //   Debug.Log(other.gameObject.layer);
+        if (canClick)
         {
-            other.gameObject.GetComponent<InteractableManager>()._OnEnterHover();
-            interactableObj = other.gameObject;
+            if (other.gameObject.layer == (int)ColliderType.kInteractable)
+            {
+                other.gameObject.GetComponent<InteractableManager>()._OnEnterHover();
+                interactableObj = other.gameObject;
+            }
         }
 
     }

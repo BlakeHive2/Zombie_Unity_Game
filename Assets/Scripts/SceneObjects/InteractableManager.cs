@@ -38,14 +38,6 @@ public class InteractableManager : MonoBehaviour
     public AudioClip SoundClip;
     public bool DoLoopAudio = false;
 
-    
-
-    [Serializable]
-    public struct DialogueText
-    {
-        public string[] dialogue;
-        public string[] options;
-    }
 
     [Header("DIALOGUE OPTIONS:")]
     public DialogueText[] dialogue;
@@ -55,11 +47,15 @@ public class InteractableManager : MonoBehaviour
     private GameObject ItemNamePrefab;
     private GameObject oldPrimary;
     private BasicMovement mvmtManager;
-    private GameObject UIForDialogue;
+
     private GameObject UIForFoundItem;
-    private GameObject UIForJournalsOrNotes;
+    private GameObject UIForFoundDocument;
+    private GameObject UIForDialogue;
     private GameObject UIForPuzzle;
     private GameObject fromSeciton;
+
+    
+
 
     void Awake()
     {
@@ -91,6 +87,8 @@ public class InteractableManager : MonoBehaviour
     void SetUpUIObjects()
     {
         UIForFoundItem = PrimaryGameUIManager.instance.FoundItemUI;
+        UIForFoundDocument = PrimaryGameUIManager.instance.FoundDocumentUI;
+        UIForDialogue = PrimaryGameUIManager.instance.DialogueUI;
     }
     void SetUpTextPrefab()
     {
@@ -153,18 +151,22 @@ public class InteractableManager : MonoBehaviour
                 //no special UI, just might toggle G/O's, have a label, & make sounds
                 break;
             case InteractableType.Dialogue_Type:
+                mvmtManager.canClick = false;
                 ShowDialoguePopUp();
                 break;
             case InteractableType.Door_Type:
+                mvmtManager.canClick = false;
                 GoThroughDoor();
                 break;
             case InteractableType.InventoryItem_Type:
                 ShowFoundItemUI();
                 break;
             case InteractableType.Note_Journal_Type:
+                mvmtManager.canClick = false;
                 ShowDocumentUI();
                 break;
             case InteractableType.Puzzle_Type:
+                mvmtManager.canClick = false;
                 ShowPuzzleUI();
                 break;
             default:
@@ -188,9 +190,15 @@ public class InteractableManager : MonoBehaviour
         }
     }
 
+    public void _restoreClicks()
+    {
+        mvmtManager.canClick = true;
+    }
     void ShowDialoguePopUp()
     {
         //set dialogue and options
+        UIForDialogue.SetActive(true);
+        UIForDialogue.GetComponent<DialogueManager>().SetDialogue(dialogue, this);
     }
 
     void ShowFoundItemUI()
@@ -202,6 +210,8 @@ public class InteractableManager : MonoBehaviour
     void ShowDocumentUI()
     {
         //set name label
+        UIForFoundDocument.SetActive(true);
+        //UIForFoundDocument.GetComponent<DocumentManager>().SetDocument(gameObject.name, this);
     }
 
     void ShowPuzzleUI()

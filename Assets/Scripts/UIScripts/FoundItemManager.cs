@@ -5,8 +5,9 @@ using Rewired;
 public class FoundItemManager : MonoBehaviour
 {
     public Text itemName;
+
     private Player cursor; // The Rewired Player
-    bool clicked;
+    private bool clicked;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
