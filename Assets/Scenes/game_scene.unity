@@ -5668,7 +5668,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1028626098
 Transform:
   m_ObjectHideFlags: 0
@@ -11809,7 +11809,7 @@ Material:
     m_Floats:
     - _Alpha: 0.134
     - _ColorMask: 15
-    - _Distortion: -0.5029799
+    - _Distortion: 0.2555019
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0
@@ -11857,7 +11857,7 @@ Material:
     m_Floats:
     - _Alpha: 0
     - _ColorMask: 15
-    - _Distortion: -0.5000014
+    - _Distortion: 1.0983709
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0
