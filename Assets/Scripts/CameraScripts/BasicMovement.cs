@@ -209,23 +209,13 @@ public class BasicMovement : MonoBehaviour
         if (moveVector.x != 0.0f || moveVector.y != 0.0f)
         {
             cc.Move(moveVector * moveSpeed * Time.deltaTime);
-
+            
+            //move the image of the cursor
             if (PrimaryGameUIManager.instance.usingMouse == false)
             {
-                Vector2 point;
-                RectTransformUtility.ScreenPointToLocalPointInRectangle(
-                    (cursorImage.transform.parent as RectTransform),
-                    moveVector, null, out point);
-
-                Debug.Log(moveVector + "  : :   " + cc.transform.position + "  : :   " + point);
-
-                // Apply to transform position
-
-                cursorImage.transform.localPosition = new Vector3(
-                    point.x,
-                    point.y,
-                    transform.localPosition.z
-                );
+                // Apply to transform position 
+                cursorImage.transform.position = playerCamera.WorldToScreenPoint(transform.position);
+                
             }
         }
         //Panning
