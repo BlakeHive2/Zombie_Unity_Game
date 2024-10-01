@@ -134,7 +134,9 @@ namespace Rewired.Demos {
 
             // Convert screen-space point to local space point
             Vector2 point;
-            RectTransformUtility.ScreenPointToLocalPointInRectangle((transform.parent as RectTransform), screenPosition, camera, out point);
+            RectTransformUtility.ScreenPointToLocalPointInRectangle(
+                (transform.parent as RectTransform), 
+                screenPosition, camera, out point);
 
             // Apply to transform position
             transform.localPosition = new Vector3(

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using Rewired;
 
@@ -27,6 +28,8 @@ public class BasicMovement : MonoBehaviour
     // The movement speed of this character
     public float moveSpeed = 10.0f;
 
+    public GameObject cursorImage;
+    public Text itemNameText;
     private Camera playerCamera;
 
     private Player cursor; // The Rewired Player
@@ -79,9 +82,8 @@ public class BasicMovement : MonoBehaviour
         mouse.ScreenPositionChangedEvent += OnScreenPositionChanged;
 
         // Get the initial position
-        OnScreenPositionChanged(mouse.screenPosition);
+        //OnScreenPositionChanged(mouse.screenPosition);
         //
-        //mouse.pointerSpeed = 10f;
 
         playerCamera = Camera.main;
         // Get the character controller
@@ -128,14 +130,37 @@ public class BasicMovement : MonoBehaviour
     {
         Debug.Log("A controller is being disconnected! Name = " + args.name + " Id = " + args.controllerId + " Type = " + args.controllerType);
     }
+    /// <summary>
+    /// This moves the mouse pointer via subscribed events when no controller connected
+    /// </summary>
+    /// <param name="position"></param>
     void OnScreenPositionChanged(Vector2 position)
-    {
-
+    { 
         // Convert from screen space to world space
         Vector3 worldPos = Camera.main.ScreenToWorldPoint(new Vector3(position.x, position.y, distanceFromCam));
 
         // Move the pointer object
+        
+
         transform.position = worldPos;
+
+        if (PrimaryGameUIManager.instance.usingMouse)
+        {
+            Vector2 point;
+            RectTransformUtility.ScreenPointToLocalPointInRectangle(
+                (cursorImage.transform.parent as RectTransform),
+                position, null, out point);
+
+            //Debug.Log(worldPos + "  : :   " + position + "  : :   " + point);
+
+            // Apply to transform position
+
+            cursorImage.transform.localPosition = new Vector3(
+                point.x,
+                point.y,
+                transform.localPosition.z
+            );
+        }
     }
     void OnDestroy()
     {
@@ -153,8 +178,8 @@ public class BasicMovement : MonoBehaviour
 
     private void GetInput()
     {
-
         cursor.controllers.hasMouse = PrimaryGameUIManager.instance.usingMouse;
+
         if (cursor.controllers.GetLastActiveController() != null)
         {
             if (PrimaryGameUIManager.instance.usingMouse == true && cursor.controllers.GetLastActiveController().type == Rewired.ControllerType.Joystick)
@@ -184,6 +209,24 @@ public class BasicMovement : MonoBehaviour
         if (moveVector.x != 0.0f || moveVector.y != 0.0f)
         {
             cc.Move(moveVector * moveSpeed * Time.deltaTime);
+
+            if (PrimaryGameUIManager.instance.usingMouse == false)
+            {
+                Vector2 point;
+                RectTransformUtility.ScreenPointToLocalPointInRectangle(
+                    (cursorImage.transform.parent as RectTransform),
+                    moveVector, null, out point);
+
+                Debug.Log(moveVector + "  : :   " + cc.transform.position + "  : :   " + point);
+
+                // Apply to transform position
+
+                cursorImage.transform.localPosition = new Vector3(
+                    point.x,
+                    point.y,
+                    transform.localPosition.z
+                );
+            }
         }
         //Panning
         if (PrimaryGameUIManager.instance.usingMouse == false)
@@ -270,7 +313,7 @@ public class BasicMovement : MonoBehaviour
         }
         distanceFromCam = newZoom * -1;
         playerCamera.transform.position = new Vector3(playerCamera.transform.position.x, playerCamera.transform.position.y, newZoom);
-        
+       
     }
 
     private void OnTriggerEnter(Collider other)
@@ -282,13 +325,26 @@ public class BasicMovement : MonoBehaviour
             {
                 other.gameObject.GetComponent<InteractableManager>()._OnEnterHover();
                 interactableObj = other.gameObject;
+                itemNameText.text = other.gameObject.name;
             }
         }
 
     }
-
+    void OnTriggerStay(Collider other)
+    {
+        if (canClick)
+        {
+            if (other.gameObject.layer == (int)ColliderType.kInteractable)
+            {
+                other.gameObject.GetComponent<InteractableManager>()._OnEnterHover();
+                interactableObj = other.gameObject;
+                itemNameText.text = other.gameObject.name;
+            }
+        }
+    }
     private void OnTriggerExit(Collider other)
     {
+        itemNameText.text = "";
         if (other.gameObject.layer == (int)ColliderType.kInteractable)
         {
             other.gameObject.GetComponent<InteractableManager>()._OnExitHover();

@@ -44,8 +44,7 @@ public class InteractableManager : MonoBehaviour
     public DialogueText[] dialogue;
 
     //
-    private AudioSource audioSrc;
-    private GameObject ItemNamePrefab;
+    private AudioSource audioSrc; 
     private GameObject oldPrimary;
     private BasicMovement mvmtManager;
 
@@ -61,8 +60,6 @@ public class InteractableManager : MonoBehaviour
     void Awake()
     {
         fromSeciton = gameObject.transform.parent.transform.parent.gameObject;
-
-        SetUpTextPrefab();
 
         SetUpCollider();
 
@@ -91,15 +88,7 @@ public class InteractableManager : MonoBehaviour
         UIForFoundDocument = PrimaryGameUIManager.instance.FoundDocumentUI;
         UIForDialogue = PrimaryGameUIManager.instance.DialogueUI;
     }
-    void SetUpTextPrefab()
-    {
-        //load in prefab and attach as child
-        ItemNamePrefab = Instantiate(Resources.Load<GameObject>("Prefabs/ItemNameCanvas")) as GameObject;
-        ItemNamePrefab.transform.parent = gameObject.transform;
-        ItemNamePrefab.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - yOffsetLabel, 0);
-        ItemNamePrefab.GetComponentInChildren<Text>().text = gameObject.name;
-        ItemNamePrefab.SetActive(false);
-    }
+     
     void SetUpAudio()
     {
         audioSrc = GetComponent<AudioSource>();
@@ -237,12 +226,10 @@ public class InteractableManager : MonoBehaviour
     }
 
     public void _OnEnterHover()
-    {
-        ItemNamePrefab.SetActive(true);
+    { 
     }
     public void _OnExitHover()
-    {
-        ItemNamePrefab.SetActive(false);
+    { 
     }
 
     public void _ClickedAddToInventory()
