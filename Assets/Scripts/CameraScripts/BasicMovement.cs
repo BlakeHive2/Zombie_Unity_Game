@@ -57,7 +57,8 @@ public class BasicMovement : MonoBehaviour
     public float PanCamMax = 5;
 
     string interactableObjName = "";
-    GameObject interactableObj;
+    [HideInInspector()]
+    public GameObject interactableObj;
     string interactableUI = "";
 
     float newZoom = -14;
@@ -239,7 +240,7 @@ public class BasicMovement : MonoBehaviour
         //using Mouse
         else
         {
-            if (newZoom != camZoomRangeMax)
+            if (newZoom != camZoomRangeMin)
             {
                 //check mouse
             }
@@ -296,10 +297,7 @@ public class BasicMovement : MonoBehaviour
                     newZoom = camZoomRangeMin;
                 }
             }
-            else
-            {
-                //do nothing
-            }
+             
         }
         distanceFromCam = newZoom * -1;
         playerCamera.transform.position = new Vector3(playerCamera.transform.position.x, playerCamera.transform.position.y, newZoom);
@@ -313,7 +311,7 @@ public class BasicMovement : MonoBehaviour
         {
             if (other.gameObject.layer == (int)ColliderType.kInteractable)
             {
-                other.gameObject.GetComponent<InteractableManager>()._OnEnterHover();
+                other.gameObject.GetComponent<InteractableManager>()._OnEnterHover(this);
                 interactableObj = other.gameObject;
                 itemNameText.text = other.gameObject.name;
             }
@@ -326,7 +324,7 @@ public class BasicMovement : MonoBehaviour
         {
             if (other.gameObject.layer == (int)ColliderType.kInteractable)
             {
-                other.gameObject.GetComponent<InteractableManager>()._OnEnterHover();
+                other.gameObject.GetComponent<InteractableManager>()._OnEnterHover(this);
                 interactableObj = other.gameObject;
                 itemNameText.text = other.gameObject.name;
             }

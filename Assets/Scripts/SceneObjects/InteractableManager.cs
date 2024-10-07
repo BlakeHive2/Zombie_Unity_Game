@@ -225,11 +225,13 @@ public class InteractableManager : MonoBehaviour
         mvmtManager.SetNewCamera(SectionThisLeadsTo.transform.GetChild(0).GetComponent<Camera>());
     }
 
-    public void _OnEnterHover()
-    { 
+    public void _OnEnterHover(BasicMovement thisScript)
+    {
+        mvmtManager = thisScript;
     }
     public void _OnExitHover()
-    { 
+    {
+        mvmtManager.interactableObj = null;
     }
 
     public void _ClickedAddToInventory()
