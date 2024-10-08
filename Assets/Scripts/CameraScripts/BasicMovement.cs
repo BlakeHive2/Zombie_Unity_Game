@@ -22,16 +22,16 @@ public class BasicMovement : MonoBehaviour
     public GameObject[] allSections;
     public GameObject fadeManager;
     public GameObject foundItemPrompt;
-    // The Rewired player id of this character
-    int playerId = 0;
+    
 
     // The movement speed of this character
     public float moveSpeed = 10.0f;
 
     public GameObject cursorImage;
     public Text itemNameText;
-    private Camera playerCamera;
 
+    private Camera playerCamera;
+    int playerId = 0;
     private Player cursor; // The Rewired Player
     [System.NonSerialized]
     private PlayerMouse mouse;
@@ -141,8 +141,6 @@ public class BasicMovement : MonoBehaviour
         Vector3 worldPos = Camera.main.ScreenToWorldPoint(new Vector3(position.x, position.y, distanceFromCam));
 
         // Move the pointer object
-        
-
         transform.position = worldPos;
 
         if (PrimaryGameUIManager.instance.usingMouse)
@@ -152,15 +150,56 @@ public class BasicMovement : MonoBehaviour
                 (cursorImage.transform.parent as RectTransform),
                 position, null, out point);
 
-            //Debug.Log(worldPos + "  : :   " + position + "  : :   " + point);
-
             // Apply to transform position
-
             cursorImage.transform.localPosition = new Vector3(
                 point.x,
                 point.y,
                 transform.localPosition.z
             );
+
+            //HANDLE PANNING
+            if (newZoom != camZoomRangeMin)
+            {
+                //check mouse
+                Debug.Log(point);
+                //panZoom = 0;
+                if (point.x < -1900)
+                {
+                    panZoom -= 0.03f;                    
+                }
+                else if (point.x > 1900)
+                {
+                    panZoom += 0.03f;
+                }
+                if (point.y < -1000)
+                {
+                    panZoom -= 0.03f;
+                }
+                else if (point.y > 1000)
+                {
+                    panZoom += 0.03f;
+                }
+
+                cameraVector = new Vector3(panZoom, panZoom, newZoom);
+
+                Debug.Log(cameraVector);
+                //screen constraints
+                if (panZoom <= 0.1)
+                {
+                    panZoom = PanCamMin;
+                }
+                else if (panZoom > 6)
+                {
+                    panZoom = PanCamMax;
+                }
+                //pan cam
+                //if (cameraVector.x != 0.0f || cameraVector.y != 0.0f)
+                //{
+
+               // playerCamera.transform.position = new Vector3(cameraVector.x, cameraVector.y, newZoom);
+                //}
+            }
+
         }
     }
     void OnDestroy()
@@ -240,9 +279,10 @@ public class BasicMovement : MonoBehaviour
         //using Mouse
         else
         {
-            if (newZoom != camZoomRangeMin)
+            //look at subscribed event: OnScreenPositionChanged
+            if (cameraVector.x != 0.0f || cameraVector.y != 0.0f)
             {
-                //check mouse
+                playerCamera.transform.position = new Vector3(cameraVector.x * panZoom, cameraVector.y * panZoom, newZoom);
             }
         }
 
@@ -306,7 +346,7 @@ public class BasicMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //   Debug.Log(other.gameObject.layer);
+        //Debug.Log(canClick + "  :   " + other.gameObject.layer);
         if (canClick)
         {
             if (other.gameObject.layer == (int)ColliderType.kInteractable)
@@ -347,6 +387,7 @@ public class BasicMovement : MonoBehaviour
     public void SetNewCamera(Camera newCamera)
     {
         playerCamera = newCamera;
+        canClick = true;
     }
 }
 

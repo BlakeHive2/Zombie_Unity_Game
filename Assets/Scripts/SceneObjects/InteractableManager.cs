@@ -54,33 +54,28 @@ public class InteractableManager : MonoBehaviour
     private GameObject UIForPuzzle;
     private GameObject fromSeciton;
 
-    
-
-
     void Awake()
-    {
-        fromSeciton = gameObject.transform.parent.transform.parent.gameObject;
+     {
+         fromSeciton = gameObject.transform.parent.transform.parent.gameObject;
 
-        SetUpCollider();
+         SetUpCollider();
 
-        if (DoesMoveWithBackground)
-        {
-            gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, 2.55f);
-        }
+         if (DoesMoveWithBackground)
+         {
+             gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, 2.55f);
+         }
 
-        SetUpAudio();
+         SetUpAudio();
 
-        AssignTagAndLayer();
+         AssignTagAndLayer();
 
-        
+         SetUpToggleObjects();
+     }
 
-        SetUpToggleObjects();
-    }
-
-    void Start()
-    {
-        SetUpUIObjects();
-    }
+     void Start()
+     {
+         SetUpUIObjects();
+     }
 
     void SetUpUIObjects()
     {
@@ -231,7 +226,10 @@ public class InteractableManager : MonoBehaviour
     }
     public void _OnExitHover()
     {
-        mvmtManager.interactableObj = null;
+        if (mvmtManager != null)
+        {
+            mvmtManager.interactableObj = null;
+        }
     }
 
     public void _ClickedAddToInventory()
