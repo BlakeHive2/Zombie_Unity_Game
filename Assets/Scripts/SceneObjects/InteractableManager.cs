@@ -224,6 +224,7 @@ public class InteractableManager : MonoBehaviour
     {
         mvmtManager = thisScript;
     }
+
     public void _OnExitHover()
     {
         if (mvmtManager != null)

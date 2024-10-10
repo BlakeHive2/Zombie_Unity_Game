@@ -47,6 +47,7 @@ public class BasicMovement : MonoBehaviour
     /// </summary>
     [HideInInspector()]
     public bool canClick = true;
+    bool canMove = true;
 
     [Header("Zooming Camera")]
     public float camZoomRangeMin = -15;
@@ -136,7 +137,8 @@ public class BasicMovement : MonoBehaviour
     /// </summary>
     /// <param name="position"></param>
     void OnScreenPositionChanged(Vector2 position)
-    { 
+    {
+        if (canMove == false) return ;
         // Convert from screen space to world space
         Vector3 worldPos = Camera.main.ScreenToWorldPoint(new Vector3(position.x, position.y, distanceFromCam));
 
@@ -212,6 +214,7 @@ public class BasicMovement : MonoBehaviour
     }
     void Update()
     {
+        if (canMove == false) return;
         GetInput();
         ProcessInput();
     }
@@ -355,18 +358,21 @@ public class BasicMovement : MonoBehaviour
         }
 
     }
-    void OnTriggerStay(Collider other)
+    /*void OnTriggerStay(Collider other)
     {
         if (canClick)
         {
             if (other.gameObject.layer == (int)ColliderType.kInteractable)
             {
+                Debug.Log("StAY: " + other.gameObject.name);
+
                 other.gameObject.GetComponent<InteractableManager>()._OnEnterHover(this);
                 interactableObj = other.gameObject;
                 itemNameText.text = other.gameObject.name;
             }
         }
-    }
+    }*/
+
     private void OnTriggerExit(Collider other)
     {
         itemNameText.text = "";
@@ -384,10 +390,23 @@ public class BasicMovement : MonoBehaviour
     public void SetNewCamera(Camera newCamera)
     {
         playerCamera = newCamera;
-        canClick = true;
+
+        canMove = false;
         itemNameText.text = "";
         interactableUI = null;
         interactableObj = null;
+        StartCoroutine(DelayClicks());
+    }
+
+    IEnumerator DelayClicks()
+    {
+        yield return new WaitForSeconds(3);
+        FinishedSectionTransition();
+    }
+    public void FinishedSectionTransition()
+    {
+        canClick = true;
+        canMove = true;
     }
 }
 
