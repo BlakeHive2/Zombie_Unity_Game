@@ -156,6 +156,7 @@ public class BasicMovement : MonoBehaviour
                 (cursorImage.transform.parent as RectTransform),
                 position, null, out mousePoint);
 
+             
             // Apply to transform position
             cursorImage.transform.localPosition = new Vector3(
                 mousePoint.x,
@@ -246,47 +247,46 @@ public class BasicMovement : MonoBehaviour
             if (newZoom != camZoomRangeMin)
             {
                 //check mouse
-                Debug.Log(mousePoint);
-                //panZoom = 0;
-                if (mousePoint.x < -1850)
+                float minX = (cursorImage.transform.parent.GetComponent<RectTransform>().rect.x + 100);
+                float maxX = (cursorImage.transform.parent.GetComponent<RectTransform>().rect.x + 100) * -1;
+                float minY = (cursorImage.transform.parent.GetComponent<RectTransform>().rect.y + 100);
+                float maxY = (cursorImage.transform.parent.GetComponent<RectTransform>().rect.y + 100) * -1;
+
+                if (mousePoint.x < minX)
                 {
-                    panZoomX -= 0.03f;
+                    if (playerCamera.transform.position.x > -5)
+                    {
+                        panZoomX -= 0.04f;
+                    }
                 }
-                else if (mousePoint.x > 1850)
+                else if (mousePoint.x > maxX)
                 {
-                    panZoomX += 0.03f;
+                    if (playerCamera.transform.position.x < 5)
+                    {
+                        panZoomX += 0.04f;
+                    }
+                    
                 }
-                if (mousePoint.y < -950)
+                if (mousePoint.y < minY)
                 {
-                    panZoomY -= 0.03f;
+                    if (playerCamera.transform.position.y > -5)
+                    {
+                        panZoomY -= 0.04f;
+                    }
+                    
                 }
-                else if (mousePoint.y > 950)
+                else if (mousePoint.y > maxY)
                 {
-                    panZoomY += 0.03f;
+                    if (playerCamera.transform.position.y < 5)
+                    {
+                        panZoomY += 0.04f;
+                    }
+                    
                 }
 
                 cameraVector = new Vector3(panZoomX, panZoomY, newZoom);
-
-                //Debug.Log(panZoomX + " x/y " + panZoomY);
-                //screen constraints
-                //X
-                /*if (panZoomX < 0.1)
-                {
-                    panZoomX = 0.1f;
-                }
-                else if (panZoomX > 6)
-                {
-                    panZoomX = 6f;
-                }
-                //Y
-                if (panZoomY < 0.1)
-                {
-                    panZoomY = 0.1f;
-                }
-                else if (panZoomY > 6)
-                {
-                    panZoomY = 6f;
-                }*/
+                
+                
             }
 
             //look at subscribed event: OnScreenPositionChanged
@@ -341,10 +341,17 @@ public class BasicMovement : MonoBehaviour
             //zoom out
             else if (zoomVector.x < 0)
             {
-                newZoom--;
+                 newZoom--;
                 if (newZoom < camZoomRangeMin)
                 {
                     newZoom = camZoomRangeMin;
+                    panZoomX = 0;
+                    panZoomY = 0;
+                    cameraVector = new Vector3(panZoomX, panZoomY, newZoom);
+                    Debug.Log("here");
+                    playerCamera.transform.position = new Vector3(0, 0, newZoom);
+
+
                 }
             }
              
