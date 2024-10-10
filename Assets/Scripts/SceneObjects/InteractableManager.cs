@@ -148,11 +148,11 @@ public class InteractableManager : MonoBehaviour
                 ShowFoundItemUI();
                 break;
             case InteractableType.Note_Journal_Type:
-                mvmtManager.canClick = false;
+                //mvmtManager.canClick = false;
                 ShowDocumentUI();
                 break;
             case InteractableType.Puzzle_Type:
-                mvmtManager.canClick = false;
+                //mvmtManager.canClick = false;
                 ShowPuzzleUI();
                 break;
             default:

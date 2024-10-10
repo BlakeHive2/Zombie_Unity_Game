@@ -235,12 +235,9 @@ public class BasicMovement : MonoBehaviour
             cameraVector.x = cursor.GetAxis("Pan Horizontal");
             cameraVector.y = cursor.GetAxis("Pan Vertical");           
         }
+
         zoomVector.x = cursor.GetAxis("Zoom");
-       // Debug.Log(zoomVector);
-
         clicked = cursor.GetButtonDown("Click");
-
-
     }
 
     private void ProcessInput()
@@ -388,6 +385,9 @@ public class BasicMovement : MonoBehaviour
     {
         playerCamera = newCamera;
         canClick = true;
+        itemNameText.text = "";
+        interactableUI = null;
+        interactableObj = null;
     }
 }
 
