@@ -229,7 +229,7 @@ public class InteractableManager : MonoBehaviour
     {
         if (mvmtManager != null)
         {
-            mvmtManager.interactableObj = null;
+            mvmtManager._ResetIndividualInteractable(gameObject.name);
         }
     }
 

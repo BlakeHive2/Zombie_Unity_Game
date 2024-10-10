@@ -358,24 +358,10 @@ public class BasicMovement : MonoBehaviour
         }
 
     }
-    /*void OnTriggerStay(Collider other)
-    {
-        if (canClick)
-        {
-            if (other.gameObject.layer == (int)ColliderType.kInteractable)
-            {
-                Debug.Log("StAY: " + other.gameObject.name);
-
-                other.gameObject.GetComponent<InteractableManager>()._OnEnterHover(this);
-                interactableObj = other.gameObject;
-                itemNameText.text = other.gameObject.name;
-            }
-        }
-    }*/
 
     private void OnTriggerExit(Collider other)
     {
-        itemNameText.text = "";
+       
         if (other.gameObject.layer == (int)ColliderType.kInteractable)
         {
             other.gameObject.GetComponent<InteractableManager>()._OnExitHover();
@@ -384,6 +370,18 @@ public class BasicMovement : MonoBehaviour
         if (other.gameObject.layer == (int)ColliderType.kUIElement)
         {
             interactableUI = null;
+        }
+    }
+
+    public void _ResetIndividualInteractable(string exitorsName)
+    {
+        if (interactableObj != null)
+        {
+            if (interactableObj.name == exitorsName)
+            {
+                itemNameText.text = "";
+                interactableObj = null;
+            }
         }
     }
 
@@ -400,7 +398,7 @@ public class BasicMovement : MonoBehaviour
 
     IEnumerator DelayClicks()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(4);
         FinishedSectionTransition();
     }
     public void FinishedSectionTransition()
